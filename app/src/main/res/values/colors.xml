@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- ═══════════════════════════════════════════════════════════
-         RAGG CINEMATIC AMOLED PALETTE — DO NOT MODIFY
+         RAAG CINEMATIC AMOLED PALETTE — EXACT SPEC
          ═══════════════════════════════════════════════════════════ -->
 
-    <!-- Core RAGG Backgrounds -->
-    <color name="background_dark">#070B14</color>
-    <color name="surface_dark">#0B0F1A</color>
+    <!-- True AMOLED Backgrounds -->
+    <color name="background_dark">#000000</color>
+    <color name="surface_dark">#080808</color>
+    <color name="card_black">#111111</color>
+    <color name="elevated_surface">#161616</color>
 
-    <!-- Primary Purple System -->
-    <color name="primary_purple">#8B5CF6</color>
-    <color name="deep_purple">#6D28D9</color>
-    <color name="accent_purple_glow">#A78BFA</color>
-    <color name="soft_lavender">#C4B5FD</color>
-    <color name="blue_violet">#6366F1</color>
+    <!-- Primary Neon Purple System -->
+    <color name="primary_purple">#A855F7</color>
+    <color name="soft_purple">#C084FC</color>
+    <color name="violet_glow">#8B5CF6</color>
+    <color name="magenta_accent">#D946EF</color>
+    <color name="deep_violet">#6D28D9</color>
 
-    <!-- Typography -->
-    <color name="text_white">#F8FAFC</color>
-    <color name="secondary_text">#94A3B8</color>
+    <!-- Text Colors -->
+    <color name="text_frost_white">#D9FFFFFF</color>
+    <color name="text_soft_white">#A6FFFFFF</color>
+    <color name="text_muted_white">#73FFFFFF</color>
+    <color name="text_dim_white">#40FFFFFF</color>
+
+    <!-- Glass Surfaces -->
+    <color name="glass_surface">#14FFFFFF</color>
+    <color name="glass_secondary">#0DFFFFFF</color>
+    <color name="glass_dark">#59000000</color>
+    <color name="glass_border">#1FFFFFFF</color>
+    <color name="glow_border">#59A855F7</color>
+
+    <!-- Purple Gradient for Backgrounds -->
+    <color name="gradient_start">#1A0533</color>
+    <color name="gradient_end">#0D0118</color>
 
     <!-- ═══════════════════════════════════════════════════════════
          UI SEMANTIC ALIASES
          ═══════════════════════════════════════════════════════════ -->
-    <color name="primary">#8B5CF6</color>
-    <color name="primaryContainer">#6366F1</color>
-    <color name="secondary">#C4B5FD</color>
-    <color name="tertiary">#A78BFA</color>
-    <color name="surface">#0B0F1A</color>
-    <color name="background">#070B14</color>
-    <color name="onSurface">#F8FAFC</color>
-    <color name="onBackground">#F8FAFC</color>
+    <color name="primary">#A855F7</color>
+    <color name="primaryContainer">#8B5CF640</color>
+    <color name="secondary">#C084FC</color>
+    <color name="tertiary">#D946EF</color>
+    <color name="surface">#080808</color>
+    <color name="background">#000000</color>
+    <color name="onSurface">#D9FFFFFF</color>
+    <color name="onBackground">#D9FFFFFF</color>
 
-    <!-- Glass Effects (Reference only, implemented in Compose) -->
-    <color name="glass_surface">#14FFFFFF</color>
-    <color name="glass_border">#1FFFFFFF</color>
-
-    <!-- ═══════════════════════════════════════════════════════════
-         LEGACY COMPATIBILITY MAPPINGS
-         ═══════════════════════════════════════════════════════════ -->
-    <color name="flagship_lavender">#8B5CF6</color>
-    <color name="deep_purple_accent">#6D28D9</color>
-    <color name="bright_purple">#A78BFA</color>
-    <color name="soft_pink">#8B5CF6</color>
-    <color name="dark_glass">#070B14</color>
-    <color name="ic_launcher_static_background">#070B14</color>
+    <!-- Launcher Icon Background -->
+    <color name="ic_launcher_static_background">#000000</color>
 
 </resources>

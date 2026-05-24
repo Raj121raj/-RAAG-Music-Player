@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="listening_to_metrolist">Listening to Metrolist</string>
+    <string name="palette_crimson">Crimson</string>
+    <string name="palette_rose">Rose</string>
+    <string name="palette_purple">Purple</string>
+    <string name="palette_green">Green</string>
+    <string name="palette_light_green">Light Green</string>
+    <string name="palette_lime">Lime</string>
+    <string name="palette_yellow">Yellow</string>
+    <string name="palette_amber">Amber</string>
+    <string name="palette_orange">Orange</string>
+    <string name="palette_deep_orange">Deep Orange</string>
+    <string name="palette_brown">Brown</string>
+    <string name="palette_grey">Grey</string>
+    <string name="palette_blue_grey">Blue Grey</string>
+
+    
+    <string name="listen_on_metrolist">Listen on Metrolist</string>
+
+    
+    <string name="discord_playing_metrolist">Playing Metrolist</string>
+    <string name="discord_watching_metrolist">Watching Metrolist</string>
+    <string name="discord_competing_metrolist">Competing in Metrolist</string>
+    </resources>
