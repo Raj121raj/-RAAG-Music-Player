@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -460,14 +460,14 @@ private fun ThumbnailHeader(
                 Text(
                     text = if (listenTogetherRoleState?.value == RoomRole.HOST) "Hosting Listen Together" else "Listening Together",
                     style = MaterialTheme.typography.titleMedium,
-                    color = Color(0xFF8B5CF6), // RAAG Primary
+                    color = Color(0xFF8B5CF6), // RAGG Primary
                     fontWeight = FontWeight.Bold
                 )
             } else {
                 Text(
                     text = stringResource(R.string.now_playing),
                     style = MaterialTheme.typography.titleSmall,
-                    color = Color(0xFF8B5CF6), // RAAG Accent Purple
+                    color = Color(0xFF8B5CF6), // RAGG Accent Purple
                     fontWeight = FontWeight.SemiBold,
                     letterSpacing = 2.sp
                 )
@@ -478,7 +478,7 @@ private fun ThumbnailHeader(
                 Text(
                     text = playingFrom,
                     style = MaterialTheme.typography.titleMedium,
-                    color = Color(0xFFF9FAFB), // RAAG White
+                    color = Color(0xFFF9FAFB), // RAGG White
                     maxLines = 1,
                     modifier = Modifier.basicMarquee()
                 )

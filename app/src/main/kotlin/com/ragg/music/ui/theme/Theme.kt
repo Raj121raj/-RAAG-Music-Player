@@ -9,103 +9,103 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-import com.ragg.music.constants.RaagThemeStyle
+import com.ragg.music.constants.RaggThemeStyle
 
 // ═══════════════════════════════════════════════════════════════
-// RAAG FUTURISTIC GLASSMORPHISM PALETTE
+// RAGG FUTURISTIC GLASSMORPHISM PALETTE
 // ═══════════════════════════════════════════════════════════════
 
 /** Deep AMOLED Background for AMOLED Dark theme */
-val RaagAmoledBackground = Color(0xFF070B14)
+val RaggAmoledBackground = Color(0xFF070B14)
 
 /** Glass Surface — premium frosted glass effect */
-val RaagGlassSurface = Color(0x14FFFFFF) // rgba(255,255,255,0.08)
+val RaggGlassSurface = Color(0x14FFFFFF) // rgba(255,255,255,0.08)
 
 /** Glass Border — subtle edge definition */
-val RaagGlassBorder = Color(0x1FFFFFFF) // rgba(255,255,255,0.12)
+val RaggGlassBorder = Color(0x1FFFFFFF) // rgba(255,255,255,0.12)
 
 /** Primary Glow */
-val RaagPrimaryGlow = Color(0xFF8B5CF6)
+val RaggPrimaryGlow = Color(0xFF8B5CF6)
 
 /** Soft Lavender */
-val RaagSoftLavender = Color(0xFFC4B5FD)
+val RaggSoftLavender = Color(0xFFC4B5FD)
 
 /** Blue Violet */
-val RaagBlueViolet = Color(0xFF6366F1)
+val RaggBlueViolet = Color(0xFF6366F1)
 
 /** Glow Highlight */
-val RaagGlowHighlight = Color(0xFFA78BFA)
+val RaggGlowHighlight = Color(0xFFA78BFA)
 
 /** White Text */
-val RaagTextWhite = Color(0xFFF8FAFC)
+val RaggTextWhite = Color(0xFFF8FAFC)
 
 /** Default theme color for legacy compatibility */
-val DefaultThemeColor = RaagPrimaryGlow
+val DefaultThemeColor = RaggPrimaryGlow
 
 // ═══════════════════════════════════════════════════════════════
 // THEME SCHEMES
 // ═══════════════════════════════════════════════════════════════
 
-private val RaagGlassScheme = darkColorScheme(
-    primary = RaagPrimaryGlow,
-    onPrimary = RaagTextWhite,
-    primaryContainer = RaagBlueViolet,
-    onPrimaryContainer = RaagTextWhite,
-    secondary = RaagSoftLavender,
-    onSecondary = RaagTextWhite,
-    secondaryContainer = RaagPrimaryGlow.copy(alpha = 0.4f),
-    onSecondaryContainer = RaagTextWhite,
+private val RaggGlassScheme = darkColorScheme(
+    primary = RaggPrimaryGlow,
+    onPrimary = RaggTextWhite,
+    primaryContainer = RaggBlueViolet,
+    onPrimaryContainer = RaggTextWhite,
+    secondary = RaggSoftLavender,
+    onSecondary = RaggTextWhite,
+    secondaryContainer = RaggPrimaryGlow.copy(alpha = 0.4f),
+    onSecondaryContainer = RaggTextWhite,
     background = Color(0xFF070B14), // Unified background
-    onBackground = RaagTextWhite,
-    surface = RaagGlassSurface,
-    onSurface = RaagTextWhite,
-    surfaceVariant = RaagGlassSurface,
-    onSurfaceVariant = RaagTextWhite.copy(alpha = 0.7f),
-    surfaceTint = RaagPrimaryGlow,
-    outline = RaagGlassBorder, // Use the specified glass border
-    surfaceContainer = RaagGlassSurface,
-    surfaceContainerHigh = RaagGlassSurface,
-    surfaceContainerHighest = RaagGlassSurface,
-    surfaceContainerLow = RaagGlassSurface,
-    surfaceContainerLowest = RaagGlassSurface,
+    onBackground = RaggTextWhite,
+    surface = RaggGlassSurface,
+    onSurface = RaggTextWhite,
+    surfaceVariant = RaggGlassSurface,
+    onSurfaceVariant = RaggTextWhite.copy(alpha = 0.7f),
+    surfaceTint = RaggPrimaryGlow,
+    outline = RaggGlassBorder, // Use the specified glass border
+    surfaceContainer = RaggGlassSurface,
+    surfaceContainerHigh = RaggGlassSurface,
+    surfaceContainerHighest = RaggGlassSurface,
+    surfaceContainerLow = RaggGlassSurface,
+    surfaceContainerLowest = RaggGlassSurface,
 )
 
-private val RaagAmoledScheme = darkColorScheme(
-    primary = RaagPrimaryGlow,
-    onPrimary = RaagTextWhite,
-    primaryContainer = RaagBlueViolet,
-    onPrimaryContainer = RaagTextWhite,
-    secondary = RaagSoftLavender,
-    onSecondary = RaagTextWhite,
-    secondaryContainer = RaagPrimaryGlow.copy(alpha = 0.3f),
-    onSecondaryContainer = RaagTextWhite,
-    background = RaagAmoledBackground,
-    onBackground = RaagTextWhite,
-    surface = RaagAmoledBackground, // Dark surfaces
-    onSurface = RaagTextWhite,
-    surfaceVariant = RaagAmoledBackground,
-    onSurfaceVariant = RaagTextWhite.copy(alpha = 0.7f),
-    surfaceTint = RaagPrimaryGlow,
-    outline = RaagGlowHighlight.copy(alpha = 0.2f),
-    surfaceContainer = RaagAmoledBackground,
-    surfaceContainerHigh = RaagAmoledBackground,
-    surfaceContainerHighest = RaagAmoledBackground,
-    surfaceContainerLow = RaagAmoledBackground,
-    surfaceContainerLowest = RaagAmoledBackground,
+private val RaggAmoledScheme = darkColorScheme(
+    primary = RaggPrimaryGlow,
+    onPrimary = RaggTextWhite,
+    primaryContainer = RaggBlueViolet,
+    onPrimaryContainer = RaggTextWhite,
+    secondary = RaggSoftLavender,
+    onSecondary = RaggTextWhite,
+    secondaryContainer = RaggPrimaryGlow.copy(alpha = 0.3f),
+    onSecondaryContainer = RaggTextWhite,
+    background = RaggAmoledBackground,
+    onBackground = RaggTextWhite,
+    surface = RaggAmoledBackground, // Dark surfaces
+    onSurface = RaggTextWhite,
+    surfaceVariant = RaggAmoledBackground,
+    onSurfaceVariant = RaggTextWhite.copy(alpha = 0.7f),
+    surfaceTint = RaggPrimaryGlow,
+    outline = RaggGlowHighlight.copy(alpha = 0.2f),
+    surfaceContainer = RaggAmoledBackground,
+    surfaceContainerHigh = RaggAmoledBackground,
+    surfaceContainerHighest = RaggAmoledBackground,
+    surfaceContainerLow = RaggAmoledBackground,
+    surfaceContainerLowest = RaggAmoledBackground,
 )
 
 // ═══════════════════════════════════════════════════════════════
-// RAAG THEME COMPOSABLE
+// RAGG THEME COMPOSABLE
 // ═══════════════════════════════════════════════════════════════
 
 @Composable
-fun RaagTheme(
-    themeStyle: RaagThemeStyle = RaagThemeStyle.GLASS_DEFAULT,
+fun RaggTheme(
+    themeStyle: RaggThemeStyle = RaggThemeStyle.GLASS_DEFAULT,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when (themeStyle) {
-        RaagThemeStyle.GLASS_DEFAULT -> RaagGlassScheme
-        RaagThemeStyle.AMOLED_DARK -> RaagAmoledScheme
+        RaggThemeStyle.GLASS_DEFAULT -> RaggGlassScheme
+        RaggThemeStyle.AMOLED_DARK -> RaggAmoledScheme
     }
     
     val view = LocalView.current
@@ -132,28 +132,28 @@ fun RaagTheme(
 // ═══════════════════════════════════════════════════════════════
 
 @Composable
-fun RAAGTheme(
-    themeStyle: RaagThemeStyle = RaagThemeStyle.GLASS_DEFAULT,
+fun RAGGTheme(
+    themeStyle: RaggThemeStyle = RaggThemeStyle.GLASS_DEFAULT,
     content: @Composable () -> Unit
 ) {
-    RaagTheme(themeStyle = themeStyle, content = content)
+    RaggTheme(themeStyle = themeStyle, content = content)
 }
 
 // ═══════════════════════════════════════════════════════════════
 // GLOBAL COLOR OBJECT
 // ═══════════════════════════════════════════════════════════════
 
-object RaagColors {
-    val AmoledBackground = RaagAmoledBackground
-    val PrimaryGlow = RaagPrimaryGlow
-    val SoftLavender = RaagSoftLavender
-    val BlueViolet = RaagBlueViolet
-    val GlowHighlight = RaagGlowHighlight
-    val Text = RaagTextWhite
+object RaggColors {
+    val AmoledBackground = RaggAmoledBackground
+    val PrimaryGlow = RaggPrimaryGlow
+    val SoftLavender = RaggSoftLavender
+    val BlueViolet = RaggBlueViolet
+    val GlowHighlight = RaggGlowHighlight
+    val Text = RaggTextWhite
     
-    val GlassSurface = RaagGlassSurface
-    val GlassBorder = RaagGlassBorder
-    val PurpleGlow = RaagPrimaryGlow.copy(alpha = 0.4f)
+    val GlassSurface = RaggGlassSurface
+    val GlassBorder = RaggGlassBorder
+    val PurpleGlow = RaggPrimaryGlow.copy(alpha = 0.4f)
     val DeepPurple = Color(0xFF070B14)
 
     // NEW PASTEL TOKENS for the "Frosted" theme

@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -608,7 +608,7 @@ object ComposeToImage {
                 ContentValues().apply {
                     put(MediaStore.MediaColumns.DISPLAY_NAME, "$fileName.png")
                     put(MediaStore.MediaColumns.MIME_TYPE, "image/png")
-                    put(MediaStore.MediaColumns.RELATIVE_PATH, Environment.DIRECTORY_PICTURES + "/RAAG")
+                    put(MediaStore.MediaColumns.RELATIVE_PATH, Environment.DIRECTORY_PICTURES + "/RAGG")
                 }
             val uri =
                 context.contentResolver.insert(

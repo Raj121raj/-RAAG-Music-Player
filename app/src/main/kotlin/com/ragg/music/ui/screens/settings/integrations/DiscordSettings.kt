@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -738,7 +738,7 @@ fun DiscordSettings(
                             Material3SettingsItem(
                                 title = { Text(stringResource(R.string.discord_button_2)) },
                                 description = {
-                                    Text(button2Text.ifEmpty { "Visit RAAG" })
+                                    Text(button2Text.ifEmpty { "Visit RAGG" })
                                 },
                                 trailingContent = {
                                     Switch(
@@ -851,10 +851,10 @@ fun RichPresence(
 
     val activityLabel =
         when (activityType) {
-            "playing" -> stringResource(R.string.discord_playing_RAAG)
-            "watching" -> stringResource(R.string.discord_watching_RAAG)
-            "competing" -> stringResource(R.string.discord_competing_RAAG)
-            else -> stringResource(R.string.listening_to_RAAG)
+            "playing" -> stringResource(R.string.discord_playing_RAGG)
+            "watching" -> stringResource(R.string.discord_watching_RAGG)
+            "competing" -> stringResource(R.string.discord_competing_RAGG)
+            else -> stringResource(R.string.listening_to_RAGG)
         }
 
     Surface(
@@ -997,18 +997,18 @@ fun RichPresence(
                 val resolvedButton2 =
                     if (song != null) {
                         DiscordRPC.resolveVariables(
-                            button2Text.ifEmpty { "Visit RAAG" },
+                            button2Text.ifEmpty { "Visit RAGG" },
                             song,
                         )
                     } else {
-                        button2Text.ifEmpty { "Visit RAAG" }
+                        button2Text.ifEmpty { "Visit RAGG" }
                     }
                 OutlinedButton(
                     onClick = {
                         val intent =
                             Intent(
                                 Intent.ACTION_VIEW,
-                                "https://github.com.raggGroup/RAAG".toUri(),
+                                "https://github.com.raggGroup/RAGG".toUri(),
                             )
                         context.startActivity(intent)
                     },

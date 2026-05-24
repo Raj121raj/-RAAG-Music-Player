@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializecreateRoomPayload")
-public inline fun createRoomPayload(block: com.RAAG.music.listentogether.proto.CreateRoomPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.CreateRoomPayload =
-  com.RAAG.music.listentogether.proto.CreateRoomPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.CreateRoomPayload.newBuilder()).apply { block() }._build()
+public inline fun createRoomPayload(block: com.RAGG.music.listentogether.proto.CreateRoomPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.CreateRoomPayload =
+  com.RAGG.music.listentogether.proto.CreateRoomPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.CreateRoomPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.CreateRoomPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.CreateRoomPayload`
  */
 public object CreateRoomPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.CreateRoomPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.CreateRoomPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.CreateRoomPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.CreateRoomPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.CreateRoomPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.CreateRoomPayload = _builder.build()
 
     /**
      * `string username = 1;`
@@ -48,6 +48,6 @@ public object CreateRoomPayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.CreateRoomPayload.copy(block: `com.RAAG.music.listentogether.proto`.CreateRoomPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.CreateRoomPayload =
-  `com.RAAG.music.listentogether.proto`.CreateRoomPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.CreateRoomPayload.copy(block: `com.RAGG.music.listentogether.proto`.CreateRoomPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.CreateRoomPayload =
+  `com.RAGG.music.listentogether.proto`.CreateRoomPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

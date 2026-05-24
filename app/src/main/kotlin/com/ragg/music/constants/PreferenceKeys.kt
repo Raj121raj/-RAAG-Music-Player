@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -15,12 +15,12 @@ import java.time.ZoneOffset
 
 val EnableDynamicIconKey = booleanPreferencesKey("enableDynamicIcon")
 val EnableHighRefreshRateKey = booleanPreferencesKey("enableHighRefreshRate")
-enum class RaagThemeStyle {
+enum class RaggThemeStyle {
     GLASS_DEFAULT,
     AMOLED_DARK,
 }
 
-val RaagThemeStyleKey = stringPreferencesKey("raagThemeStyle")
+val RaggThemeStyleKey = stringPreferencesKey("raagThemeStyle")
 val PureBlackMiniPlayerKey = booleanPreferencesKey("pureBlackMiniPlayer")
 val MiniPlayerOutlineKey = booleanPreferencesKey("miniPlayerOutline")
 val MiniPlayerBackgroundStyleKey = stringPreferencesKey("miniPlayerBackgroundStyle")

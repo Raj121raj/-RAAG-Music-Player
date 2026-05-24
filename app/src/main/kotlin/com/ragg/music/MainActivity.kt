@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -147,8 +147,8 @@ import com.ragg.music.constants.SlimNavBarKey
 import com.ragg.music.constants.StopMusicOnTaskClearKey
 import com.ragg.music.constants.UpdateNotificationsEnabledKey
 import com.ragg.music.constants.UseNewMiniPlayerDesignKey
-import com.ragg.music.constants.RaagThemeStyle
-import com.ragg.music.constants.RaagThemeStyleKey
+import com.ragg.music.constants.RaggThemeStyle
+import com.ragg.music.constants.RaggThemeStyleKey
 import com.ragg.music.db.MusicDatabase
 import com.ragg.music.db.entities.SearchHistory
 import com.ragg.music.extensions.toEnum
@@ -173,7 +173,7 @@ import com.ragg.music.ui.player.BottomSheetPlayer
 import com.ragg.music.ui.screens.Screens
 import com.ragg.music.ui.screens.navigationBuilder
 import com.ragg.music.ui.screens.settings.NavigationTab
-import com.ragg.music.ui.theme.RAAGTheme
+import com.ragg.music.ui.theme.RAGGTheme
 import com.ragg.music.ui.utils.appBarScrollBehavior
 import com.ragg.music.ui.utils.resetHeightOffset
 import com.ragg.music.utils.SyncUtils
@@ -404,7 +404,7 @@ class MainActivity : ComponentActivity() {
         }
 
         setContent {
-            RAAGApp(
+            RAGGApp(
                 latestVersionName = latestVersionName,
                 onLatestVersionNameChange = { latestVersionName = it },
                 playerConnection = playerConnectionSnapshot,
@@ -418,7 +418,7 @@ class MainActivity : ComponentActivity() {
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
-    private fun RAAGApp(
+    private fun RAGGApp(
         latestVersionName: String,
         onLatestVersionNameChange: (String) -> Unit,
         playerConnection: PlayerConnection?,
@@ -476,11 +476,11 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-        val themeStyle by rememberEnumPreference(RaagThemeStyleKey, defaultValue = RaagThemeStyle.GLASS_DEFAULT)
+        val themeStyle by rememberEnumPreference(RaggThemeStyleKey, defaultValue = RaggThemeStyle.GLASS_DEFAULT)
 
         val showChangelog = rememberSaveable { mutableStateOf(false) }
 
-        RAAGTheme(
+        RAGGTheme(
             themeStyle = themeStyle,
         ) {
             BoxWithConstraints(

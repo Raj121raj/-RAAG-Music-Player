@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -44,7 +44,7 @@ import androidx.compose.ui.unit.sp
 import androidx.core.content.FileProvider
 import com.ragg.music.R
 import com.ragg.music.ui.component.GlassSurface
-import com.ragg.music.ui.theme.RAAGTheme
+import com.ragg.music.ui.theme.RAGGTheme
 import com.ragg.music.utils.CrashHandler
 import java.io.File
 import java.text.SimpleDateFormat
@@ -60,7 +60,7 @@ class CrashActivity : ComponentActivity() {
         val crashLog = intent.getStringExtra(CrashHandler.EXTRA_CRASH_LOG) ?: getString(R.string.crash_no_log)
         
         setContent {
-            RAAGTheme {
+            RAGGTheme {
                 CrashScreen(
                     crashLog = crashLog,
                     onClose = { finishAffinity() },
@@ -74,7 +74,7 @@ class CrashActivity : ComponentActivity() {
         try {
             // Create crash log file
             val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.US).format(Date())
-            val fileName = "RAAG_crash_$timestamp.txt"
+            val fileName = "RAGG_crash_$timestamp.txt"
             val crashFile = File(cacheDir, fileName)
             crashFile.writeText(crashLog)
             

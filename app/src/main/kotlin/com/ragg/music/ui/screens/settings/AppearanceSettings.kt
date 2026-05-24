@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -277,7 +277,7 @@ fun AppearanceSettings(
 
     // Density scale preferences
     val context = activity as Context
-    val sharedPreferences = remember { context.getSharedPreferences("RAAG_settings", Context.MODE_PRIVATE) }
+    val sharedPreferences = remember { context.getSharedPreferences("RAGG_settings", Context.MODE_PRIVATE) }
     val prefDensityScale =
         remember(sharedPreferences) {
             sharedPreferences.getFloat("density_scale_factor", 1.0f)

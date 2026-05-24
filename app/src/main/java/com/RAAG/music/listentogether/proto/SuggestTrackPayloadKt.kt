@@ -5,34 +5,34 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializesuggestTrackPayload")
-public inline fun suggestTrackPayload(block: com.RAAG.music.listentogether.proto.SuggestTrackPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayload =
-  com.RAAG.music.listentogether.proto.SuggestTrackPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayload.newBuilder()).apply { block() }._build()
+public inline fun suggestTrackPayload(block: com.RAGG.music.listentogether.proto.SuggestTrackPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayload =
+  com.RAGG.music.listentogether.proto.SuggestTrackPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.SuggestTrackPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.SuggestTrackPayload`
  */
 public object SuggestTrackPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayload = _builder.build()
 
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo trackInfo = 1;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo trackInfo = 1;`
      */
-    public var trackInfo: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo
+    public var trackInfo: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo
       @kotlin.jvm.JvmName("getTrackInfo")
         get() = _builder.trackInfo
       @kotlin.jvm.JvmName("setTrackInfo")
@@ -40,27 +40,27 @@ public object SuggestTrackPayloadKt {
         _builder.trackInfo = value
       }
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo trackInfo = 1;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo trackInfo = 1;`
      */
     public fun clearTrackInfo() {
       _builder.clearTrackInfo()
     }
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo trackInfo = 1;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo trackInfo = 1;`
      * @return Whether the trackInfo field is set.
      */
     public fun hasTrackInfo(): kotlin.Boolean {
       return _builder.hasTrackInfo()
     }
 
-    public val SuggestTrackPayloadKt.Dsl.trackInfoOrNull: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo?
+    public val SuggestTrackPayloadKt.Dsl.trackInfoOrNull: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo?
       get() = _builder.trackInfoOrNull
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayload.copy(block: `com.RAAG.music.listentogether.proto`.SuggestTrackPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayload =
-  `com.RAAG.music.listentogether.proto`.SuggestTrackPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayload.copy(block: `com.RAGG.music.listentogether.proto`.SuggestTrackPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayload =
+  `com.RAGG.music.listentogether.proto`.SuggestTrackPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-public val com.RAAG.music.listentogether.proto.Listentogether.SuggestTrackPayloadOrBuilder.trackInfoOrNull: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo?
+public val com.RAGG.music.listentogether.proto.Listentogether.SuggestTrackPayloadOrBuilder.trackInfoOrNull: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo?
   get() = if (hasTrackInfo()) getTrackInfo() else null
 

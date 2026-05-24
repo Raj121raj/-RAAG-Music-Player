@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -39,7 +39,7 @@ object Updater {
     private var cachedAllReleases: List<ReleaseInfo> = emptyList()
     
     private const val CHECK_INTERVAL_MILLIS = 2 * 60 * 60 * 1000L // 2 hours
-    private const val GITHUB_API_BASE = "https://api.github.com/repos/RAAGGroup/RAAG"
+    private const val GITHUB_API_BASE = "https://api.github.com/repos/RAGGGroup/RAGG"
 
     /**
      * Compares two version strings.
@@ -96,8 +96,8 @@ object Updater {
             
             // Parse architecture and variant from filename
             val (arch, variant) = when {
-                name == "RAAG.apk" -> "universal" to "foss"
-                name == "RAAG-with-Google-Cast.apk" -> "universal" to "gms"
+                name == "RAGG.apk" -> "universal" to "foss"
+                name == "RAGG-with-Google-Cast.apk" -> "universal" to "gms"
                 name.startsWith("app-") && name.endsWith("-release.apk") -> {
                     val arch = name.removePrefix("app-").removeSuffix("-release.apk")
                     arch to "foss"

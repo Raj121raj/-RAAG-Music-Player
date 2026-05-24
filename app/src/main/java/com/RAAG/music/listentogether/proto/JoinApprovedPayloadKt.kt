@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializejoinApprovedPayload")
-public inline fun joinApprovedPayload(block: com.RAAG.music.listentogether.proto.JoinApprovedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayload =
-  com.RAAG.music.listentogether.proto.JoinApprovedPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayload.newBuilder()).apply { block() }._build()
+public inline fun joinApprovedPayload(block: com.RAGG.music.listentogether.proto.JoinApprovedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayload =
+  com.RAGG.music.listentogether.proto.JoinApprovedPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.JoinApprovedPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.JoinApprovedPayload`
  */
 public object JoinApprovedPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayload = _builder.build()
 
     /**
      * `string roomCode = 1;`
@@ -81,9 +81,9 @@ public object JoinApprovedPayloadKt {
     }
 
     /**
-     * `.com.RAAG.music.listentogether.proto.RoomState state = 4;`
+     * `.com.RAGG.music.listentogether.proto.RoomState state = 4;`
      */
-    public var state: com.RAAG.music.listentogether.proto.Listentogether.RoomState
+    public var state: com.RAGG.music.listentogether.proto.Listentogether.RoomState
       @kotlin.jvm.JvmName("getState")
         get() = _builder.state
       @kotlin.jvm.JvmName("setState")
@@ -91,27 +91,27 @@ public object JoinApprovedPayloadKt {
         _builder.state = value
       }
     /**
-     * `.com.RAAG.music.listentogether.proto.RoomState state = 4;`
+     * `.com.RAGG.music.listentogether.proto.RoomState state = 4;`
      */
     public fun clearState() {
       _builder.clearState()
     }
     /**
-     * `.com.RAAG.music.listentogether.proto.RoomState state = 4;`
+     * `.com.RAGG.music.listentogether.proto.RoomState state = 4;`
      * @return Whether the state field is set.
      */
     public fun hasState(): kotlin.Boolean {
       return _builder.hasState()
     }
 
-    public val JoinApprovedPayloadKt.Dsl.stateOrNull: com.RAAG.music.listentogether.proto.Listentogether.RoomState?
+    public val JoinApprovedPayloadKt.Dsl.stateOrNull: com.RAGG.music.listentogether.proto.Listentogether.RoomState?
       get() = _builder.stateOrNull
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayload.copy(block: `com.RAAG.music.listentogether.proto`.JoinApprovedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayload =
-  `com.RAAG.music.listentogether.proto`.JoinApprovedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayload.copy(block: `com.RAGG.music.listentogether.proto`.JoinApprovedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayload =
+  `com.RAGG.music.listentogether.proto`.JoinApprovedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-public val com.RAAG.music.listentogether.proto.Listentogether.JoinApprovedPayloadOrBuilder.stateOrNull: com.RAAG.music.listentogether.proto.Listentogether.RoomState?
+public val com.RAGG.music.listentogether.proto.Listentogether.JoinApprovedPayloadOrBuilder.stateOrNull: com.RAGG.music.listentogether.proto.Listentogether.RoomState?
   get() = if (hasState()) getState() else null
 

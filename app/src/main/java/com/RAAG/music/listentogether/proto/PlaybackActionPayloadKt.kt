@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializeplaybackActionPayload")
-public inline fun playbackActionPayload(block: com.RAAG.music.listentogether.proto.PlaybackActionPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayload =
-  com.RAAG.music.listentogether.proto.PlaybackActionPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayload.newBuilder()).apply { block() }._build()
+public inline fun playbackActionPayload(block: com.RAGG.music.listentogether.proto.PlaybackActionPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayload =
+  com.RAGG.music.listentogether.proto.PlaybackActionPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.PlaybackActionPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.PlaybackActionPayload`
  */
 public object PlaybackActionPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayload = _builder.build()
 
     /**
      * `string action = 1;`
@@ -132,9 +132,9 @@ public object PlaybackActionPayloadKt {
     }
 
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo trackInfo = 7;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo trackInfo = 7;`
      */
-    public var trackInfo: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo
+    public var trackInfo: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo
       @kotlin.jvm.JvmName("getTrackInfo")
         get() = _builder.trackInfo
       @kotlin.jvm.JvmName("setTrackInfo")
@@ -142,20 +142,20 @@ public object PlaybackActionPayloadKt {
         _builder.trackInfo = value
       }
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo trackInfo = 7;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo trackInfo = 7;`
      */
     public fun clearTrackInfo() {
       _builder.clearTrackInfo()
     }
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo trackInfo = 7;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo trackInfo = 7;`
      * @return Whether the trackInfo field is set.
      */
     public fun hasTrackInfo(): kotlin.Boolean {
       return _builder.hasTrackInfo()
     }
 
-    public val PlaybackActionPayloadKt.Dsl.trackInfoOrNull: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo?
+    public val PlaybackActionPayloadKt.Dsl.trackInfoOrNull: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo?
       get() = _builder.trackInfoOrNull
 
     /**
@@ -182,75 +182,75 @@ public object PlaybackActionPayloadKt {
     @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
     public class QueueProxy private constructor() : com.google.protobuf.kotlin.DslProxy()
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      */
-     public val queue: com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>
+     public val queue: com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>
       @kotlin.jvm.JvmSynthetic
   get() = com.google.protobuf.kotlin.DslList(
         _builder.queueList
       )
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param value The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("addQueue")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.add(value: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo) {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.add(value: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo) {
       _builder.addQueue(value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param value The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("plusAssignQueue")
     @Suppress("NOTHING_TO_INLINE")
-    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(value: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo) {
+    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(value: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo) {
       add(value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param values The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("addAllQueue")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.addAll(values: kotlin.collections.Iterable<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo>) {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.addAll(values: kotlin.collections.Iterable<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo>) {
       _builder.addAllQueue(values)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param values The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("plusAssignAllQueue")
     @Suppress("NOTHING_TO_INLINE")
-    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(values: kotlin.collections.Iterable<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo>) {
+    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(values: kotlin.collections.Iterable<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo>) {
       addAll(values)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param index The index to set the value at.
      * @param value The queue to set.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("setQueue")
-    public operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.set(index: kotlin.Int, value: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo) {
+    public operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.set(index: kotlin.Int, value: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo) {
       _builder.setQueue(index, value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("clearQueue")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.clear() {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.clear() {
       _builder.clearQueue()
     }
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayload.copy(block: `com.RAAG.music.listentogether.proto`.PlaybackActionPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayload =
-  `com.RAAG.music.listentogether.proto`.PlaybackActionPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayload.copy(block: `com.RAGG.music.listentogether.proto`.PlaybackActionPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayload =
+  `com.RAGG.music.listentogether.proto`.PlaybackActionPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-public val com.RAAG.music.listentogether.proto.Listentogether.PlaybackActionPayloadOrBuilder.trackInfoOrNull: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo?
+public val com.RAGG.music.listentogether.proto.Listentogether.PlaybackActionPayloadOrBuilder.trackInfoOrNull: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo?
   get() = if (hasTrackInfo()) getTrackInfo() else null
 

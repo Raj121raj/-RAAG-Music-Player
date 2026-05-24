@@ -195,7 +195,7 @@
     <string name="enable_scrobbling">Habilitar scrobbling</string>
     <string name="lastfm_now_playing">Enviar lo que estoy escuchando</string>
     <string name="last_fm_send_likes">Enviar Me gusta/No me gusta</string>
-    <string name="last_fm_send_likes_description">Marcar como Me gusta/No me gusta las canciones en Last.fm cuando son marcadas como Me gusta/No me gusta en RAAG</string>
+    <string name="last_fm_send_likes_description">Marcar como Me gusta/No me gusta las canciones en Last.fm cuando son marcadas como Me gusta/No me gusta en RAGG</string>
     <string name="logging_in">Iniciando sesión…</string>
     <string name="wavy">Ondulado</string>
     <string name="remember_shuffle_and_repeat">Recordar aleatorio y repetir</string>
@@ -269,15 +269,15 @@
     <string name="wrapped_total_artists_subtitle">artistas únicos</string>
     <string name="wrapped_total_songs_title">Escuchaste</string>
     <string name="wrapped_total_songs_subtitle">canciones únicas</string>
-    <string name="wrapped_intro_title">RAAG</string>
+    <string name="wrapped_intro_title">RAGG</string>
     <string name="wrapped_intro_subtitle">es hora de ver lo que estuviste escuchando</string>
     <string name="wrapped_intro_button">¡vamos!</string>
-    <string name="wrapped_logo_content_description">Logo de RAAG</string>
+    <string name="wrapped_logo_content_description">Logo de RAGG</string>
     <string name="wrapped_year">2025</string>
     <string name="wrapped_ready_title">¡TU RECAP ESTÁ LISTO!</string>
     <string name="wrapped_ready_subtitle">Hora de ver lo que te gustó este año.</string>
     <string name="wrapped_thank_you">Gracias por escuchar</string>
-    <string name="wrapped_special_thanks">Agradecimiento especial a MO Agamy por crear RAAG</string>
+    <string name="wrapped_special_thanks">Agradecimiento especial a MO Agamy por crear RAGG</string>
     <string name="wrapped_close">Cerrar Recap</string>
     <string name="wrapped_playlist_title">Tu Recap %s</string>
     <string name="wrapped_create_playlist">Crear lista de reproducción</string>
@@ -303,7 +303,7 @@
     <string name="error_file_open">No se pudo abrir el archivo: %1$s</string>
     <string name="import_error_title">Error al importar</string>
     <string name="casting_to">Transmitiendo a %s</string>
-    <string name="listening_to_RAAG">Escuchando RAAG</string>
+    <string name="listening_to_RAGG">Escuchando RAGG</string>
     <string name="open">Abrir</string>
     <string name="failed_to_create_image">No se pudo crear la imagen: %s</string>
     <string name="copied_title">Se copió el título</string>
@@ -312,7 +312,7 @@
     <string name="failed_to_parse_proxy">No se pudo analizar la URL del proxy.</string>
     <string name="album_art">Carátula del álbum</string>
     <string name="no_song_playing">Ninguna canción en reproducción</string>
-    <string name="tap_to_open">Toca para abrir RAAG</string>
+    <string name="tap_to_open">Toca para abrir RAGG</string>
     <string name="previous">Anterior</string>
     <string name="play_pause">Reproducir/pausar</string>
     <string name="next">Siguiente</string>
@@ -405,7 +405,7 @@
     <string name="lyrics_romanize_as_main">Mostrar letras romanizadas como principales</string>
     <string name="hide_youtube_shorts">Ocultar Youtube Shorts</string>
     <string name="not_playing">No se está reproduciendo ninguna canción</string>
-    <string name="tap_to_play">Toca para abrir RAAG</string>
+    <string name="tap_to_play">Toca para abrir RAGG</string>
     <string name="widget_music_player">Reproductor de Música</string>
     <string name="widget_turntable">Disco giratorio</string>
     <string name="together">En compañia</string>
@@ -472,7 +472,7 @@
     <string name="crash_description">Se ha producido un error inesperado. Por favor, comparta el informe de errores para ayudarnos a solucionar el problema.</string>
     <string name="crash_share_logs">Compartir Registros</string>
     <string name="crash_share_title">Compartir informe de errores</string>
-    <string name="crash_report_subject">Informe de errores de RAAG</string>
+    <string name="crash_report_subject">Informe de errores de RAGG</string>
     <string name="crash_close">Cerrar</string>
     <string name="crash_no_log">No hay registro de fallos disponible</string>
     <string name="palette_dynamic">Dinámico</string>
@@ -516,7 +516,7 @@
     <string name="clear_recognition_history_confirm">¿Estás seguro de que deseas borrar todo el historial de reconocimiento?</string>
     <string name="delete_from_history">Eliminar del historial</string>
     <string name="re_listen">Volver a escuchar</string>
-    <string name="play_on_app">Escuchar en RAAG</string>
+    <string name="play_on_app">Escuchar en RAGG</string>
     <string name="map_csv_columns">Asignar columnas CSV</string>
     <string name="first_row_is_header">La primera fila es el encabezado</string>
     <string name="artist_name_column">Columna del nombre del artista</string>
@@ -544,9 +544,9 @@
     <string name="discord_rpc_preview">Previsualizar Presencia</string>
     <string name="discord_presence">Presencia</string>
     <string name="discord_connect_description">Inicia sesión con Discord para compartir lo que estás escuchando</string>
-    <string name="discord_playing_RAAG">Reproduciendo en RAAG</string>
-    <string name="discord_watching_RAAG">Viendo en RAAG</string>
-    <string name="discord_competing_RAAG">Compitiendo en RAAG</string>
+    <string name="discord_playing_RAGG">Reproduciendo en RAGG</string>
+    <string name="discord_watching_RAGG">Viendo en RAGG</string>
+    <string name="discord_competing_RAGG">Compitiendo en RAGG</string>
     <string name="discord_activity_name">Nombre de la actividad</string>
     <string name="discord_activity_name_description">Nombre personalizado para la actividad (déjelo vacío para usar el nombre predeterminado)</string>
     <string name="discord_advanced_mode">Modo avanzado</string>
@@ -611,7 +611,7 @@
     <string name="respect_agent_positioning">Respetar la posición de los agentes</string>
     <string name="changelog">Registro de cambios</string>
     <string name="changelog_empty">No hay registros de cambios disponibles</string>
-    <string name="github_releases_url">https://github.com.raggGroup/RAAG/releases</string>
+    <string name="github_releases_url">https://github.com.raggGroup/RAGG/releases</string>
     <string name="list_bullet">•</string>
     <string name="view_on_github">Ver en GitHub</string>
     <string name="current_version">Versión actual</string>

@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializebufferCompletePayload")
-public inline fun bufferCompletePayload(block: com.RAAG.music.listentogether.proto.BufferCompletePayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.BufferCompletePayload =
-  com.RAAG.music.listentogether.proto.BufferCompletePayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.BufferCompletePayload.newBuilder()).apply { block() }._build()
+public inline fun bufferCompletePayload(block: com.RAGG.music.listentogether.proto.BufferCompletePayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.BufferCompletePayload =
+  com.RAGG.music.listentogether.proto.BufferCompletePayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.BufferCompletePayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.BufferCompletePayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.BufferCompletePayload`
  */
 public object BufferCompletePayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.BufferCompletePayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.BufferCompletePayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.BufferCompletePayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.BufferCompletePayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.BufferCompletePayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.BufferCompletePayload = _builder.build()
 
     /**
      * `string trackId = 1;`
@@ -48,6 +48,6 @@ public object BufferCompletePayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.BufferCompletePayload.copy(block: `com.RAAG.music.listentogether.proto`.BufferCompletePayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.BufferCompletePayload =
-  `com.RAAG.music.listentogether.proto`.BufferCompletePayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.BufferCompletePayload.copy(block: `com.RAGG.music.listentogether.proto`.BufferCompletePayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.BufferCompletePayload =
+  `com.RAGG.music.listentogether.proto`.BufferCompletePayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

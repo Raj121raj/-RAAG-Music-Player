@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -128,7 +128,7 @@ import androidx.media3.common.Player
 import androidx.media3.common.Player.STATE_ENDED
 import androidx.navigation.NavController
 import androidx.palette.graphics.Palette
-import com.ragg.music.ui.theme.RaagColors
+import com.ragg.music.ui.theme.RaggColors
 import coil3.compose.AsyncImage
 import coil3.imageLoader
 import coil3.request.ImageRequest
@@ -822,14 +822,14 @@ fun BottomSheetPlayer(
                             contentScale = ContentScale.Crop,
                             modifier = Modifier.fillMaxSize().blur(80.dp),
                         )
-                        // Enhanced RAAG Frosted Pastel Overlay
+                        // Enhanced RAGG Frosted Pastel Overlay
                         Box(
                             modifier = Modifier
                                 .fillMaxSize()
                                 .background(
                                     Brush.radialGradient(
                                         colors = listOf(
-                                            RaagColors.PastelPink.copy(alpha = 0.4f),
+                                            RaggColors.PastelPink.copy(alpha = 0.4f),
                                             Color.Transparent
                                         ),
                                         center = Offset(0.2f, 0.2f)
@@ -838,13 +838,13 @@ fun BottomSheetPlayer(
                                 .background(
                                     Brush.radialGradient(
                                         colors = listOf(
-                                            RaagColors.PastelBlue.copy(alpha = 0.3f),
+                                            RaggColors.PastelBlue.copy(alpha = 0.3f),
                                             Color.Transparent
                                         ),
                                         center = Offset(0.8f, 0.8f)
                                     )
                                 )
-                                .background(RaagColors.PastelLavender.copy(alpha = 0.8f)),
+                                .background(RaggColors.PastelLavender.copy(alpha = 0.8f)),
                         )
                     }
                 }
@@ -1327,7 +1327,7 @@ fun BottomSheetPlayer(
                             }
                         },
                         enabled = !isListenTogetherGuest,
-                        colors = PlayerSliderColors.getSliderColors(RaagColors.AccentRed, playerBackground, useDarkTheme),
+                        colors = PlayerSliderColors.getSliderColors(RaggColors.AccentRed, playerBackground, useDarkTheme),
                         modifier = Modifier.padding(horizontal = PlayerHorizontalPadding),
                     )
                 }
@@ -1353,7 +1353,7 @@ fun BottomSheetPlayer(
                                 sliderPosition = null
                             },
                             modifier = Modifier.padding(horizontal = PlayerHorizontalPadding),
-                            colors = PlayerSliderColors.getSliderColors(RaagColors.AccentRed, playerBackground, useDarkTheme),
+                            colors = PlayerSliderColors.getSliderColors(RaggColors.AccentRed, playerBackground, useDarkTheme),
                             isPlaying = effectiveIsPlaying,
                         )
                     } else {
@@ -1375,7 +1375,7 @@ fun BottomSheetPlayer(
                                 }
                                 sliderPosition = null
                             },
-                            colors = PlayerSliderColors.getSliderColors(RaagColors.AccentRed, playerBackground, useDarkTheme),
+                            colors = PlayerSliderColors.getSliderColors(RaggColors.AccentRed, playerBackground, useDarkTheme),
                             modifier = Modifier.padding(horizontal = PlayerHorizontalPadding),
                             isPlaying = effectiveIsPlaying,
                         )
@@ -1410,7 +1410,7 @@ fun BottomSheetPlayer(
                         track = { sliderState ->
                             PlayerSliderTrack(
                                 sliderState = sliderState,
-                                colors = PlayerSliderColors.getSliderColors(RaagColors.AccentRed, playerBackground, useDarkTheme),
+                                colors = PlayerSliderColors.getSliderColors(RaggColors.AccentRed, playerBackground, useDarkTheme),
                             )
                         },
                         modifier = Modifier.padding(horizontal = PlayerHorizontalPadding),
@@ -1579,7 +1579,7 @@ fun BottomSheetPlayer(
                                 interactionSource = playPauseInteractionSource,
                                 colors =
                                     IconButtonDefaults.filledIconButtonColors(
-                                        containerColor = RaagColors.AccentRed,
+                                        containerColor = RaggColors.AccentRed,
                                         contentColor = Color.White,
                                     ),
                                 modifier =

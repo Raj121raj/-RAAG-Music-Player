@@ -13,7 +13,7 @@ import timber.log.Timber
  * n-parameter transformation (for throttle avoidance / 403 fix).
  */
 object CipherDeobfuscator {
-    private const val TAG = "RAAG_CipherDeobfusc"
+    private const val TAG = "RAGG_CipherDeobfusc"
 
     lateinit var appContext: Context
         private set

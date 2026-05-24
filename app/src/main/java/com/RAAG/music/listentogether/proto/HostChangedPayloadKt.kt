@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializehostChangedPayload")
-public inline fun hostChangedPayload(block: com.RAAG.music.listentogether.proto.HostChangedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.HostChangedPayload =
-  com.RAAG.music.listentogether.proto.HostChangedPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.HostChangedPayload.newBuilder()).apply { block() }._build()
+public inline fun hostChangedPayload(block: com.RAGG.music.listentogether.proto.HostChangedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.HostChangedPayload =
+  com.RAGG.music.listentogether.proto.HostChangedPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.HostChangedPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.HostChangedPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.HostChangedPayload`
  */
 public object HostChangedPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.HostChangedPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.HostChangedPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.HostChangedPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.HostChangedPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.HostChangedPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.HostChangedPayload = _builder.build()
 
     /**
      * `string newHostId = 1;`
@@ -65,6 +65,6 @@ public object HostChangedPayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.HostChangedPayload.copy(block: `com.RAAG.music.listentogether.proto`.HostChangedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.HostChangedPayload =
-  `com.RAAG.music.listentogether.proto`.HostChangedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.HostChangedPayload.copy(block: `com.RAGG.music.listentogether.proto`.HostChangedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.HostChangedPayload =
+  `com.RAGG.music.listentogether.proto`.HostChangedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

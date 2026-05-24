@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializeuserReconnectedPayload")
-public inline fun userReconnectedPayload(block: com.RAAG.music.listentogether.proto.UserReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.UserReconnectedPayload =
-  com.RAAG.music.listentogether.proto.UserReconnectedPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.UserReconnectedPayload.newBuilder()).apply { block() }._build()
+public inline fun userReconnectedPayload(block: com.RAGG.music.listentogether.proto.UserReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.UserReconnectedPayload =
+  com.RAGG.music.listentogether.proto.UserReconnectedPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.UserReconnectedPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.UserReconnectedPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.UserReconnectedPayload`
  */
 public object UserReconnectedPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.UserReconnectedPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.UserReconnectedPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.UserReconnectedPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.UserReconnectedPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.UserReconnectedPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.UserReconnectedPayload = _builder.build()
 
     /**
      * `string userId = 1;`
@@ -65,6 +65,6 @@ public object UserReconnectedPayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.UserReconnectedPayload.copy(block: `com.RAAG.music.listentogether.proto`.UserReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.UserReconnectedPayload =
-  `com.RAAG.music.listentogether.proto`.UserReconnectedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.UserReconnectedPayload.copy(block: `com.RAGG.music.listentogether.proto`.UserReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.UserReconnectedPayload =
+  `com.RAGG.music.listentogether.proto`.UserReconnectedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

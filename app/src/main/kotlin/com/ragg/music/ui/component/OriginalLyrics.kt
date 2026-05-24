@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -484,7 +484,7 @@ fun OriginalLyrics(
 
     val lazyListState = rememberLazyListState()
 
-    // Professional animation states for smooth RAAG-style transitions
+    // Professional animation states for smooth RAGG-style transitions
     var isAnimating by remember { mutableStateOf(false) }
     var isAutoScrollEnabled by rememberSaveable { mutableStateOf(true) }
 
@@ -2210,11 +2210,11 @@ fun OriginalLyrics(
     }
 }
 
-// Professional page animation constants inspired by RAAG design - slower for smoothness
-private const val RAAG_AUTO_SCROLL_DURATION = 1500L // Much slower auto-scroll for smooth transitions
-private const val RAAG_INITIAL_SCROLL_DURATION = 1000L // Slower initial positioning
-private const val RAAG_SEEK_DURATION = 800L // Slower user interaction
-private const val RAAG_FAST_SEEK_DURATION = 600L // Less aggressive seeking
+// Professional page animation constants inspired by RAGG design - slower for smoothness
+private const val RAGG_AUTO_SCROLL_DURATION = 1500L // Much slower auto-scroll for smooth transitions
+private const val RAGG_INITIAL_SCROLL_DURATION = 1000L // Slower initial positioning
+private const val RAGG_SEEK_DURATION = 800L // Slower user interaction
+private const val RAGG_FAST_SEEK_DURATION = 600L // Less aggressive seeking
 
 // Lyrics constants
 val LyricsPreviewTime = 2.seconds

@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializeenvelope")
-public inline fun envelope(block: com.RAAG.music.listentogether.proto.EnvelopeKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.Envelope =
-  com.RAAG.music.listentogether.proto.EnvelopeKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.Envelope.newBuilder()).apply { block() }._build()
+public inline fun envelope(block: com.RAGG.music.listentogether.proto.EnvelopeKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.Envelope =
+  com.RAGG.music.listentogether.proto.EnvelopeKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.Envelope.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.Envelope`
+ * Protobuf type `com.RAGG.music.listentogether.proto.Envelope`
  */
 public object EnvelopeKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.Envelope.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.Envelope.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.Envelope.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.Envelope.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.Envelope = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.Envelope = _builder.build()
 
     /**
      * `string type = 1;`
@@ -82,6 +82,6 @@ public object EnvelopeKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.Envelope.copy(block: `com.RAAG.music.listentogether.proto`.EnvelopeKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.Envelope =
-  `com.RAAG.music.listentogether.proto`.EnvelopeKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.Envelope.copy(block: `com.RAGG.music.listentogether.proto`.EnvelopeKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.Envelope =
+  `com.RAGG.music.listentogether.proto`.EnvelopeKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

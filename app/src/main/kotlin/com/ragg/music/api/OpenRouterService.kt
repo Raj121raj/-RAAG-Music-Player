@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -166,8 +166,8 @@ Output MUST be a JSON array with EXACTLY $lineCount strings."""
                                     addHeader("Authorization", "Bearer ${apiKey.trim()}")
                                 }
                             }.addHeader("Content-Type", "application/json")
-                            .addHeader("HTTP-Referer", "https://github.com.raggGroup/RAAG")
-                            .addHeader("X-Title", "RAAG")
+                            .addHeader("HTTP-Referer", "https://github.com.raggGroup/RAGG")
+                            .addHeader("X-Title", "RAGG")
                             .post(jsonBody.toString().toRequestBody(JSON))
                             .build()
 

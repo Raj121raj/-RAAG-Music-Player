@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- ═══════════════════════════════════════════════════════════
-         RAAG CINEMATIC AMOLED PALETTE — DO NOT MODIFY
+         RAGG CINEMATIC AMOLED PALETTE — DO NOT MODIFY
          ═══════════════════════════════════════════════════════════ -->
 
-    <!-- Core RAAG Backgrounds -->
+    <!-- Core RAGG Backgrounds -->
     <color name="background_dark">#070B14</color>
     <color name="surface_dark">#0B0F1A</color>
 

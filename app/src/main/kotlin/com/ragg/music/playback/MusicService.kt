@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -192,7 +192,7 @@ import com.ragg.music.utils.YTPlayerUtils
 import com.ragg.music.utils.dataStore
 import com.ragg.music.utils.get
 import com.ragg.music.utils.reportException
-import com.ragg.music.widget.RAAGWidgetManager
+import com.ragg.music.widget.RAGGWidgetManager
 import com.ragg.music.widget.MusicWidgetReceiver
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CancellationException
@@ -259,7 +259,7 @@ class MusicService :
     lateinit var eqProfileRepository: EQProfileRepository
 
     @Inject
-    lateinit var widgetManager: RAAGWidgetManager
+    lateinit var widgetManager: RAGGWidgetManager
 
     @Inject
     lateinit var listenTogetherManager: com.ragg.music.listentogether.ListenTogetherManager
@@ -4190,7 +4190,7 @@ class MusicService :
         private const val MIN_GAIN_MB = -1500 // Minimum gain in millibels (-15 dB)
 
         private const val TAG = "MusicService"
-        private const val PRIVATE_STREAM_MARKER = "_RAAG_private"
+        private const val PRIVATE_STREAM_MARKER = "_RAGG_private"
 
         @Volatile
         var isRunning = false

@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializeuserLeftPayload")
-public inline fun userLeftPayload(block: com.RAAG.music.listentogether.proto.UserLeftPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.UserLeftPayload =
-  com.RAAG.music.listentogether.proto.UserLeftPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.UserLeftPayload.newBuilder()).apply { block() }._build()
+public inline fun userLeftPayload(block: com.RAGG.music.listentogether.proto.UserLeftPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.UserLeftPayload =
+  com.RAGG.music.listentogether.proto.UserLeftPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.UserLeftPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.UserLeftPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.UserLeftPayload`
  */
 public object UserLeftPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.UserLeftPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.UserLeftPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.UserLeftPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.UserLeftPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.UserLeftPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.UserLeftPayload = _builder.build()
 
     /**
      * `string userId = 1;`
@@ -65,6 +65,6 @@ public object UserLeftPayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.UserLeftPayload.copy(block: `com.RAAG.music.listentogether.proto`.UserLeftPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.UserLeftPayload =
-  `com.RAAG.music.listentogether.proto`.UserLeftPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.UserLeftPayload.copy(block: `com.RAGG.music.listentogether.proto`.UserLeftPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.UserLeftPayload =
+  `com.RAGG.music.listentogether.proto`.UserLeftPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

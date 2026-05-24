@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -287,7 +287,7 @@ object LyricsPlusProvider : LyricsProvider {
 
     /**
      * Converts a LyricsPlus JSON response to
-     * RAAG's extended LRC:
+     * RAGG's extended LRC:
      *
      *   [mm:ss.cc]{agent:v1}line text     ← multi-voice agent tag
      *   <word:startSec:endSec|word:...>   ← word-sync block (Word mode only)

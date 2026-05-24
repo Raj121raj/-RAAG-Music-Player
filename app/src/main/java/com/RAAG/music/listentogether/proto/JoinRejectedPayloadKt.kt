@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializejoinRejectedPayload")
-public inline fun joinRejectedPayload(block: com.RAAG.music.listentogether.proto.JoinRejectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.JoinRejectedPayload =
-  com.RAAG.music.listentogether.proto.JoinRejectedPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.JoinRejectedPayload.newBuilder()).apply { block() }._build()
+public inline fun joinRejectedPayload(block: com.RAGG.music.listentogether.proto.JoinRejectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.JoinRejectedPayload =
+  com.RAGG.music.listentogether.proto.JoinRejectedPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.JoinRejectedPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.JoinRejectedPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.JoinRejectedPayload`
  */
 public object JoinRejectedPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.JoinRejectedPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.JoinRejectedPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.JoinRejectedPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.JoinRejectedPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.JoinRejectedPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.JoinRejectedPayload = _builder.build()
 
     /**
      * `string reason = 1;`
@@ -48,6 +48,6 @@ public object JoinRejectedPayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.JoinRejectedPayload.copy(block: `com.RAAG.music.listentogether.proto`.JoinRejectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.JoinRejectedPayload =
-  `com.RAAG.music.listentogether.proto`.JoinRejectedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.JoinRejectedPayload.copy(block: `com.RAGG.music.listentogether.proto`.JoinRejectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.JoinRejectedPayload =
+  `com.RAGG.music.listentogether.proto`.JoinRejectedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

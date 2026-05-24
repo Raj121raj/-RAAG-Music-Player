@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -445,7 +445,7 @@ object YTPlayerUtils {
         if (streamPlayerResponse.playabilityStatus.status != "OK") {
             val errorReason = streamPlayerResponse.playabilityStatus.reason
             // YouTube often surfaces generic reasons (e.g. "error 2000") for restricted or
-            // unavailable streams; RAAG cannot recover those without official playback.
+            // unavailable streams; RAGG cannot recover those without official playback.
             Timber.tag(logTag).e("Playability status not OK: $errorReason")
             if (isUploadedTrack) {
                 Timber.tag(TAG).e("Playability not OK for uploaded track: status=${streamPlayerResponse.playabilityStatus.status}, reason=$errorReason")

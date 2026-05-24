@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 class ThemeViewModel : ViewModel() {
-    // Theme state flows - RAAG is strictly dark cinematic
+    // Theme state flows - RAGG is strictly dark cinematic
     private val _darkMode = MutableStateFlow(DarkMode.ON)
     val darkMode: StateFlow<DarkMode> = _darkMode.asStateFlow()
 
@@ -24,15 +24,15 @@ class ThemeViewModel : ViewModel() {
     val selectedThemeColorInt: StateFlow<Int> = _selectedThemeColorInt.asStateFlow()
 
     fun updateDarkMode(mode: DarkMode) {
-        // No-op for RAAG
+        // No-op for RAGG
     }
 
     fun updatePureBlack(enabled: Boolean) {
-        // No-op for RAAG
+        // No-op for RAGG
     }
 
     fun updateThemeColor(colorInt: Int) {
-        // No-op for RAAG
+        // No-op for RAGG
     }
 }
 

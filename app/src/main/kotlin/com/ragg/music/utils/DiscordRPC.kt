@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -59,10 +59,10 @@ class DiscordRPC(
         }
         if (button2Visible) {
             val resolvedText = resolveVariables(
-                button2Text.ifEmpty { "Visit RAAG" },
+                button2Text.ifEmpty { "Visit RAGG" },
                 song
             )
-            buttonsList.add(resolvedText to "https://github.com.raggGroup/RAAG")
+            buttonsList.add(resolvedText to "https://github.com.raggGroup/RAGG")
         }
 
         val type = when (activityType) {

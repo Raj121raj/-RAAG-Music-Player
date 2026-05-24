@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  * 
  * Optimized for minimal recomposition during navigation
@@ -121,7 +121,7 @@ import com.ragg.music.utils.makeTimeString
 import com.ragg.music.utils.rememberEnumPreference
 import com.ragg.music.utils.rememberPreference
 import com.ragg.music.utils.reportException
-import com.ragg.music.ui.theme.RaagColors
+import com.ragg.music.ui.theme.RaggColors
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
@@ -159,7 +159,7 @@ inline fun ListItem(
             .background(
                 color = if (isActive) MaterialTheme.colorScheme.primary.copy(alpha = 0.3f)
                 else if (isSelected == true) MaterialTheme.colorScheme.inversePrimary.copy(alpha = 0.2f)
-                else Color.White.copy(alpha = 0.35f) // RAAG frosted glass background for list items
+                else Color.White.copy(alpha = 0.35f) // RAGG frosted glass background for list items
             )
             .border(
                 width = 1.dp,
@@ -1450,7 +1450,7 @@ fun LocalThumbnail(
                     modifier = Modifier
                         .size(36.dp)
                         .clip(CircleShape)
-                        .background(RaagColors.AccentRed)
+                        .background(RaggColors.AccentRed)
                 ) {
                     Icon(
                         painter = painterResource(R.drawable.play),
@@ -1547,7 +1547,7 @@ fun BoxScope.OverlayPlayButton(
             modifier = Modifier
                 .size(36.dp)
                 .clip(CircleShape)
-                .background(RaagColors.AccentRed)
+                .background(RaggColors.AccentRed)
         ) {
             Icon(
                 painter = painterResource(R.drawable.play),
@@ -1610,7 +1610,7 @@ fun BoxScope.AlbumPlayButton(
             modifier = Modifier
                 .size(36.dp)
                 .clip(CircleShape)
-                .background(RaagColors.AccentRed)
+                .background(RaggColors.AccentRed)
                 .clickable(onClick = onClick)
         ) {
             Icon(

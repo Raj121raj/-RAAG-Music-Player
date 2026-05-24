@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -33,7 +33,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class RAAGWidgetManager @Inject constructor(
+class RAGGWidgetManager @Inject constructor(
     @ApplicationContext private val context: Context,
     private val database: MusicDatabase
 ) {

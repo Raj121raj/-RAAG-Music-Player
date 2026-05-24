@@ -28,8 +28,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.ragg.music.R
-import com.ragg.music.constants.RaagThemeStyle
-import com.ragg.music.constants.RaagThemeStyleKey
+import com.ragg.music.constants.RaggThemeStyle
+import com.ragg.music.constants.RaggThemeStyleKey
 import com.ragg.music.ui.component.GlassSurface
 import com.ragg.music.utils.rememberEnumPreference
 
@@ -38,7 +38,7 @@ import com.ragg.music.utils.rememberEnumPreference
 fun ThemeScreen(
     navController: NavController,
 ) {
-    val (themeStyle, onThemeStyleChange) = rememberEnumPreference(RaagThemeStyleKey, RaagThemeStyle.GLASS_DEFAULT)
+    val (themeStyle, onThemeStyleChange) = rememberEnumPreference(RaggThemeStyleKey, RaggThemeStyle.GLASS_DEFAULT)
 
     Scaffold(
         topBar = {
@@ -74,17 +74,17 @@ fun ThemeScreen(
                     )
 
                     ThemeOption(
-                        title = stringResource(R.string.palette_RAAG_flagship),
+                        title = stringResource(R.string.palette_RAGG_flagship),
                         description = "Futuristic glassmorphism with frosted blur and glowing accents.",
-                        selected = themeStyle == RaagThemeStyle.GLASS_DEFAULT,
-                        onClick = { onThemeStyleChange(RaagThemeStyle.GLASS_DEFAULT) }
+                        selected = themeStyle == RaggThemeStyle.GLASS_DEFAULT,
+                        onClick = { onThemeStyleChange(RaggThemeStyle.GLASS_DEFAULT) }
                     )
 
                     ThemeOption(
                         title = stringResource(R.string.palette_deep_purple),
                         description = "Deep AMOLED blacks with subtle purple glow for OLED efficiency.",
-                        selected = themeStyle == RaagThemeStyle.AMOLED_DARK,
-                        onClick = { onThemeStyleChange(RaagThemeStyle.AMOLED_DARK) }
+                        selected = themeStyle == RaggThemeStyle.AMOLED_DARK,
+                        onClick = { onThemeStyleChange(RaggThemeStyle.AMOLED_DARK) }
                     )
                 }
             }

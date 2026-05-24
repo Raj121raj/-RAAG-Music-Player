@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializetrackInfo")
-public inline fun trackInfo(block: com.RAAG.music.listentogether.proto.TrackInfoKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.TrackInfo =
-  com.RAAG.music.listentogether.proto.TrackInfoKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.TrackInfo.newBuilder()).apply { block() }._build()
+public inline fun trackInfo(block: com.RAGG.music.listentogether.proto.TrackInfoKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.TrackInfo =
+  com.RAGG.music.listentogether.proto.TrackInfoKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.TrackInfo.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.TrackInfo`
+ * Protobuf type `com.RAGG.music.listentogether.proto.TrackInfo`
  */
 public object TrackInfoKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.TrackInfo = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.TrackInfo = _builder.build()
 
     /**
      * `string id = 1;`
@@ -150,6 +150,6 @@ public object TrackInfoKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.TrackInfo.copy(block: `com.RAAG.music.listentogether.proto`.TrackInfoKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.TrackInfo =
-  `com.RAAG.music.listentogether.proto`.TrackInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.TrackInfo.copy(block: `com.RAGG.music.listentogether.proto`.TrackInfoKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.TrackInfo =
+  `com.RAGG.music.listentogether.proto`.TrackInfoKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

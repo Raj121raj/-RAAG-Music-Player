@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializereconnectedPayload")
-public inline fun reconnectedPayload(block: com.RAAG.music.listentogether.proto.ReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayload =
-  com.RAAG.music.listentogether.proto.ReconnectedPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayload.newBuilder()).apply { block() }._build()
+public inline fun reconnectedPayload(block: com.RAGG.music.listentogether.proto.ReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayload =
+  com.RAGG.music.listentogether.proto.ReconnectedPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.ReconnectedPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.ReconnectedPayload`
  */
 public object ReconnectedPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayload = _builder.build()
 
     /**
      * `string roomCode = 1;`
@@ -64,9 +64,9 @@ public object ReconnectedPayloadKt {
     }
 
     /**
-     * `.com.RAAG.music.listentogether.proto.RoomState state = 3;`
+     * `.com.RAGG.music.listentogether.proto.RoomState state = 3;`
      */
-    public var state: com.RAAG.music.listentogether.proto.Listentogether.RoomState
+    public var state: com.RAGG.music.listentogether.proto.Listentogether.RoomState
       @kotlin.jvm.JvmName("getState")
         get() = _builder.state
       @kotlin.jvm.JvmName("setState")
@@ -74,20 +74,20 @@ public object ReconnectedPayloadKt {
         _builder.state = value
       }
     /**
-     * `.com.RAAG.music.listentogether.proto.RoomState state = 3;`
+     * `.com.RAGG.music.listentogether.proto.RoomState state = 3;`
      */
     public fun clearState() {
       _builder.clearState()
     }
     /**
-     * `.com.RAAG.music.listentogether.proto.RoomState state = 3;`
+     * `.com.RAGG.music.listentogether.proto.RoomState state = 3;`
      * @return Whether the state field is set.
      */
     public fun hasState(): kotlin.Boolean {
       return _builder.hasState()
     }
 
-    public val ReconnectedPayloadKt.Dsl.stateOrNull: com.RAAG.music.listentogether.proto.Listentogether.RoomState?
+    public val ReconnectedPayloadKt.Dsl.stateOrNull: com.RAGG.music.listentogether.proto.Listentogether.RoomState?
       get() = _builder.stateOrNull
 
     /**
@@ -109,9 +109,9 @@ public object ReconnectedPayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayload.copy(block: `com.RAAG.music.listentogether.proto`.ReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayload =
-  `com.RAAG.music.listentogether.proto`.ReconnectedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayload.copy(block: `com.RAGG.music.listentogether.proto`.ReconnectedPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayload =
+  `com.RAGG.music.listentogether.proto`.ReconnectedPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-public val com.RAAG.music.listentogether.proto.Listentogether.ReconnectedPayloadOrBuilder.stateOrNull: com.RAAG.music.listentogether.proto.Listentogether.RoomState?
+public val com.RAGG.music.listentogether.proto.Listentogether.ReconnectedPayloadOrBuilder.stateOrNull: com.RAGG.music.listentogether.proto.Listentogether.RoomState?
   get() = if (hasState()) getState() else null
 

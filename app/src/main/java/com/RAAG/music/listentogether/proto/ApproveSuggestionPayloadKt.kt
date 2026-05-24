@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializeapproveSuggestionPayload")
-public inline fun approveSuggestionPayload(block: com.RAAG.music.listentogether.proto.ApproveSuggestionPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload =
-  com.RAAG.music.listentogether.proto.ApproveSuggestionPayloadKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.newBuilder()).apply { block() }._build()
+public inline fun approveSuggestionPayload(block: com.RAGG.music.listentogether.proto.ApproveSuggestionPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload =
+  com.RAGG.music.listentogether.proto.ApproveSuggestionPayloadKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.ApproveSuggestionPayload`
+ * Protobuf type `com.RAGG.music.listentogether.proto.ApproveSuggestionPayload`
  */
 public object ApproveSuggestionPayloadKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload = _builder.build()
 
     /**
      * `string suggestionId = 1;`
@@ -48,6 +48,6 @@ public object ApproveSuggestionPayloadKt {
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.copy(block: `com.RAAG.music.listentogether.proto`.ApproveSuggestionPayloadKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload =
-  `com.RAAG.music.listentogether.proto`.ApproveSuggestionPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload.copy(block: `com.RAGG.music.listentogether.proto`.ApproveSuggestionPayloadKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.ApproveSuggestionPayload =
+  `com.RAGG.music.listentogether.proto`.ApproveSuggestionPayloadKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 

@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -163,7 +163,7 @@ import com.ragg.music.utils.rememberEnumPreference
 import com.ragg.music.utils.rememberPreference
 import com.ragg.music.viewmodels.CommunityPlaylistItem
 import com.ragg.music.viewmodels.HomeViewModel
-import com.ragg.music.ui.theme.RaagColors
+import com.ragg.music.ui.theme.RaggColors
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
@@ -227,7 +227,7 @@ fun MusicCloudHero(
                         .background(
                             Brush.radialGradient(
                                 colors = listOf(
-                                    RaagColors.PastelPink.copy(alpha = 0.2f),
+                                    RaggColors.PastelPink.copy(alpha = 0.2f),
                                     Color.Transparent
                                 )
                             )
@@ -241,9 +241,9 @@ fun MusicCloudHero(
                     verticalArrangement = Arrangement.Center
                 ) {
                     Text(
-                        text = "RAAG CLOUD",
+                        text = "RAGG CLOUD",
                         style = MaterialTheme.typography.labelLarge,
-                        color = RaagColors.PrimaryGlow,
+                        color = RaggColors.PrimaryGlow,
                         letterSpacing = 4.sp
                     )
                     
@@ -269,7 +269,7 @@ fun MusicCloudHero(
                     Button(
                         onClick = onActionClick,
                         colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-                            containerColor = RaagColors.AccentRed
+                            containerColor = RaggColors.AccentRed
                         ),
                         shape = RoundedCornerShape(16.dp)
                     ) {
@@ -291,7 +291,7 @@ fun MusicCloudHero(
                         .size(100.dp)
                         .background(
                             Brush.linearGradient(
-                                colors = listOf(RaagColors.PrimaryGlow.copy(alpha = 0.2f), Color.Transparent)
+                                colors = listOf(RaggColors.PrimaryGlow.copy(alpha = 0.2f), Color.Transparent)
                             ),
                             CircleShape
                         )
@@ -315,7 +315,7 @@ fun CommunityPlaylistCard(
     val scope = rememberCoroutineScope()
     val isDark = isSystemInDarkTheme()
 
-    val containerColor = Color(0xFF121826).copy(alpha = 0.4f) // RAAG Glass Surface
+    val containerColor = Color(0xFF121826).copy(alpha = 0.4f) // RAGG Glass Surface
 
     val dbPlaylist by database.playlistByBrowseId(item.playlist.id).collectAsStateWithLifecycle(initialValue = null)
     val isBookmarked = dbPlaylist?.playlist?.bookmarkedAt != null
@@ -639,7 +639,7 @@ fun DailyDiscoverCard(
                 ),
         colors =
             CardDefaults.cardColors(
-                containerColor = Color(0xFF121826).copy(alpha = 0.4f), // RAAG Glass Surface
+                containerColor = Color(0xFF121826).copy(alpha = 0.4f), // RAGG Glass Surface
             ),
         border = BorderStroke(1.dp, Color(0xFF8B5CF6).copy(alpha = 0.2f)),
         shape = RoundedCornerShape(28.dp),

@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -173,7 +173,7 @@ fun Bitmap.extractThemeColor(): Color {
         .maximumColorCount(16)
         .generate()
     
-    // Priority: Vibrant -> Dominant -> Muted -> RAAG Purple Fallback
+    // Priority: Vibrant -> Dominant -> Muted -> RAGG Purple Fallback
     val swatch = palette.vibrantSwatch 
         ?: palette.dominantSwatch 
         ?: palette.mutedSwatch

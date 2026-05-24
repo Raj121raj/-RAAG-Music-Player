@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -1465,7 +1465,7 @@ fun ListenTogetherDialog(
                                 Spacer(modifier = Modifier.height(12.dp))
                                 val inviteLink =
                                     remember(room.roomCode) {
-                                        "https://RAAG.meowery.eu/listen?code=${room.roomCode}"
+                                        "https://RAGG.meowery.eu/listen?code=${room.roomCode}"
                                     }
                                 Row(
                                     verticalAlignment = Alignment.CenterVertically,

@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -697,7 +697,7 @@ private fun RoomStatusCard(
                 Spacer(modifier = Modifier.height(16.dp))
                 val inviteLink =
                     remember(roomCode) {
-                        "https://RAAG.meowery.eu/listen?code=$roomCode"
+                        "https://RAGG.meowery.eu/listen?code=$roomCode"
                     }
                 Row(
                     verticalAlignment = Alignment.CenterVertically,

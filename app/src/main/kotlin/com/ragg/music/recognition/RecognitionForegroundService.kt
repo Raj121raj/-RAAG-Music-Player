@@ -255,7 +255,7 @@ class RecognitionForegroundService : Service() {
             contentIntent = pendingIntent,
             largeIcon = null,
             actionIntent = pendingIntent,
-            actionTitle = getString(R.string.listen_on_RAAG),
+            actionTitle = getString(R.string.listen_on_RAGG),
         )
 
         serviceScope.launch {
@@ -277,7 +277,7 @@ class RecognitionForegroundService : Service() {
                     contentIntent = pendingIntent,
                     largeIcon = coverBitmap,
                     actionIntent = pendingIntent,
-                    actionTitle = getString(R.string.listen_on_RAAG),
+                    actionTitle = getString(R.string.listen_on_RAGG),
                 )
             }
             finishWithPersistentResult()

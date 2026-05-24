@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -12,7 +12,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 // ═══════════════════════════════════════════════════════════════
-// RAAG CINEMATIC TYPOGRAPHY SYSTEM
+// RAGG CINEMATIC TYPOGRAPHY SYSTEM
 //
 // Scale based on Material 3 + SF Pro / Inter style refinements:
 // - Tight negative tracking for headlines (cinematic feel)

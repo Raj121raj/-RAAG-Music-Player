@@ -5,29 +5,29 @@
 @file:com.google.protobuf.Generated
 // Generated files should ignore deprecation warnings
 @file:Suppress("DEPRECATION")
-package com.RAAG.music.listentogether.proto;
+package com.RAGG.music.listentogether.proto;
 
 @kotlin.jvm.JvmName("-initializeroomState")
-public inline fun roomState(block: com.RAAG.music.listentogether.proto.RoomStateKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.RoomState =
-  com.RAAG.music.listentogether.proto.RoomStateKt.Dsl._create(com.RAAG.music.listentogether.proto.Listentogether.RoomState.newBuilder()).apply { block() }._build()
+public inline fun roomState(block: com.RAGG.music.listentogether.proto.RoomStateKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.RoomState =
+  com.RAGG.music.listentogether.proto.RoomStateKt.Dsl._create(com.RAGG.music.listentogether.proto.Listentogether.RoomState.newBuilder()).apply { block() }._build()
 /**
- * Protobuf type `com.RAAG.music.listentogether.proto.RoomState`
+ * Protobuf type `com.RAGG.music.listentogether.proto.RoomState`
  */
 public object RoomStateKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   public class Dsl private constructor(
-    private val _builder: com.RAAG.music.listentogether.proto.Listentogether.RoomState.Builder
+    private val _builder: com.RAGG.music.listentogether.proto.Listentogether.RoomState.Builder
   ) {
     public companion object {
       @kotlin.jvm.JvmSynthetic
     @kotlin.PublishedApi
-      internal fun _create(builder: com.RAAG.music.listentogether.proto.Listentogether.RoomState.Builder): Dsl = Dsl(builder)
+      internal fun _create(builder: com.RAGG.music.listentogether.proto.Listentogether.RoomState.Builder): Dsl = Dsl(builder)
     }
 
     @kotlin.jvm.JvmSynthetic
   @kotlin.PublishedApi
-    internal fun _build(): com.RAAG.music.listentogether.proto.Listentogether.RoomState = _builder.build()
+    internal fun _build(): com.RAGG.music.listentogether.proto.Listentogether.RoomState = _builder.build()
 
     /**
      * `string roomCode = 1;`
@@ -70,74 +70,74 @@ public object RoomStateKt {
     @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
     public class UsersProxy private constructor() : com.google.protobuf.kotlin.DslProxy()
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.UserInfo users = 3;`
+     * `repeated .com.RAGG.music.listentogether.proto.UserInfo users = 3;`
      */
-     public val users: com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>
+     public val users: com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>
       @kotlin.jvm.JvmSynthetic
   get() = com.google.protobuf.kotlin.DslList(
         _builder.usersList
       )
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.UserInfo users = 3;`
+     * `repeated .com.RAGG.music.listentogether.proto.UserInfo users = 3;`
      * @param value The users to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("addUsers")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.add(value: com.RAAG.music.listentogether.proto.Listentogether.UserInfo) {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.add(value: com.RAGG.music.listentogether.proto.Listentogether.UserInfo) {
       _builder.addUsers(value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.UserInfo users = 3;`
+     * `repeated .com.RAGG.music.listentogether.proto.UserInfo users = 3;`
      * @param value The users to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("plusAssignUsers")
     @Suppress("NOTHING_TO_INLINE")
-    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.plusAssign(value: com.RAAG.music.listentogether.proto.Listentogether.UserInfo) {
+    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.plusAssign(value: com.RAGG.music.listentogether.proto.Listentogether.UserInfo) {
       add(value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.UserInfo users = 3;`
+     * `repeated .com.RAGG.music.listentogether.proto.UserInfo users = 3;`
      * @param values The users to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("addAllUsers")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.addAll(values: kotlin.collections.Iterable<com.RAAG.music.listentogether.proto.Listentogether.UserInfo>) {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.addAll(values: kotlin.collections.Iterable<com.RAGG.music.listentogether.proto.Listentogether.UserInfo>) {
       _builder.addAllUsers(values)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.UserInfo users = 3;`
+     * `repeated .com.RAGG.music.listentogether.proto.UserInfo users = 3;`
      * @param values The users to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("plusAssignAllUsers")
     @Suppress("NOTHING_TO_INLINE")
-    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.plusAssign(values: kotlin.collections.Iterable<com.RAAG.music.listentogether.proto.Listentogether.UserInfo>) {
+    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.plusAssign(values: kotlin.collections.Iterable<com.RAGG.music.listentogether.proto.Listentogether.UserInfo>) {
       addAll(values)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.UserInfo users = 3;`
+     * `repeated .com.RAGG.music.listentogether.proto.UserInfo users = 3;`
      * @param index The index to set the value at.
      * @param value The users to set.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("setUsers")
-    public operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.set(index: kotlin.Int, value: com.RAAG.music.listentogether.proto.Listentogether.UserInfo) {
+    public operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.set(index: kotlin.Int, value: com.RAGG.music.listentogether.proto.Listentogether.UserInfo) {
       _builder.setUsers(index, value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.UserInfo users = 3;`
+     * `repeated .com.RAGG.music.listentogether.proto.UserInfo users = 3;`
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("clearUsers")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.clear() {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.UserInfo, UsersProxy>.clear() {
       _builder.clearUsers()
     }
 
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo currentTrack = 4;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo currentTrack = 4;`
      */
-    public var currentTrack: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo
+    public var currentTrack: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo
       @kotlin.jvm.JvmName("getCurrentTrack")
         get() = _builder.currentTrack
       @kotlin.jvm.JvmName("setCurrentTrack")
@@ -145,20 +145,20 @@ public object RoomStateKt {
         _builder.currentTrack = value
       }
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo currentTrack = 4;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo currentTrack = 4;`
      */
     public fun clearCurrentTrack() {
       _builder.clearCurrentTrack()
     }
     /**
-     * `.com.RAAG.music.listentogether.proto.TrackInfo currentTrack = 4;`
+     * `.com.RAGG.music.listentogether.proto.TrackInfo currentTrack = 4;`
      * @return Whether the currentTrack field is set.
      */
     public fun hasCurrentTrack(): kotlin.Boolean {
       return _builder.hasCurrentTrack()
     }
 
-    public val RoomStateKt.Dsl.currentTrackOrNull: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo?
+    public val RoomStateKt.Dsl.currentTrackOrNull: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo?
       get() = _builder.currentTrackOrNull
 
     /**
@@ -236,75 +236,75 @@ public object RoomStateKt {
     @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
     public class QueueProxy private constructor() : com.google.protobuf.kotlin.DslProxy()
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      */
-     public val queue: com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>
+     public val queue: com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>
       @kotlin.jvm.JvmSynthetic
   get() = com.google.protobuf.kotlin.DslList(
         _builder.queueList
       )
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param value The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("addQueue")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.add(value: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo) {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.add(value: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo) {
       _builder.addQueue(value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param value The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("plusAssignQueue")
     @Suppress("NOTHING_TO_INLINE")
-    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(value: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo) {
+    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(value: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo) {
       add(value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param values The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("addAllQueue")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.addAll(values: kotlin.collections.Iterable<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo>) {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.addAll(values: kotlin.collections.Iterable<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo>) {
       _builder.addAllQueue(values)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param values The queue to add.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("plusAssignAllQueue")
     @Suppress("NOTHING_TO_INLINE")
-    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(values: kotlin.collections.Iterable<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo>) {
+    public inline operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.plusAssign(values: kotlin.collections.Iterable<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo>) {
       addAll(values)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      * @param index The index to set the value at.
      * @param value The queue to set.
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("setQueue")
-    public operator fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.set(index: kotlin.Int, value: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo) {
+    public operator fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.set(index: kotlin.Int, value: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo) {
       _builder.setQueue(index, value)
     }
     /**
-     * `repeated .com.RAAG.music.listentogether.proto.TrackInfo queue = 9;`
+     * `repeated .com.RAGG.music.listentogether.proto.TrackInfo queue = 9;`
      */
     @kotlin.jvm.JvmSynthetic
 @kotlin.jvm.JvmName("clearQueue")
-    public fun com.google.protobuf.kotlin.DslList<com.RAAG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.clear() {
+    public fun com.google.protobuf.kotlin.DslList<com.RAGG.music.listentogether.proto.Listentogether.TrackInfo, QueueProxy>.clear() {
       _builder.clearQueue()
     }
   }
 }
 @kotlin.jvm.JvmSynthetic
-public inline fun com.RAAG.music.listentogether.proto.Listentogether.RoomState.copy(block: `com.RAAG.music.listentogether.proto`.RoomStateKt.Dsl.() -> kotlin.Unit): com.RAAG.music.listentogether.proto.Listentogether.RoomState =
-  `com.RAAG.music.listentogether.proto`.RoomStateKt.Dsl._create(this.toBuilder()).apply { block() }._build()
+public inline fun com.RAGG.music.listentogether.proto.Listentogether.RoomState.copy(block: `com.RAGG.music.listentogether.proto`.RoomStateKt.Dsl.() -> kotlin.Unit): com.RAGG.music.listentogether.proto.Listentogether.RoomState =
+  `com.RAGG.music.listentogether.proto`.RoomStateKt.Dsl._create(this.toBuilder()).apply { block() }._build()
 
-public val com.RAAG.music.listentogether.proto.Listentogether.RoomStateOrBuilder.currentTrackOrNull: com.RAAG.music.listentogether.proto.Listentogether.TrackInfo?
+public val com.RAGG.music.listentogether.proto.Listentogether.RoomStateOrBuilder.currentTrackOrNull: com.RAGG.music.listentogether.proto.Listentogether.TrackInfo?
   get() = if (hasCurrentTrack()) getCurrentTrack() else null
 

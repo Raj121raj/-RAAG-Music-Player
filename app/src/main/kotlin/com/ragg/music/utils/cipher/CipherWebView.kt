@@ -558,7 +558,7 @@ function discoverAndInit() {
     }
 
     companion object {
-        private const val TAG = "RAAG_CipherWebView"
+        private const val TAG = "RAGG_CipherWebView"
         private const val JS_INTERFACE = "CipherBridge"
 
         suspend fun create(

@@ -1,5 +1,5 @@
 /**
- * RAAG Project (C) 2026
+ * RAGG Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  *
  * Performance optimized MiniPlayer - prevents unnecessary recomposition
@@ -126,7 +126,7 @@ import coil3.toBitmap
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import com.ragg.music.ui.theme.PlayerColorExtractor
-import com.ragg.music.ui.theme.RaagColors
+import com.ragg.music.ui.theme.RaggColors
 import com.ragg.music.ui.component.LocalMenuState
 import com.ragg.music.ui.menu.AddToPlaylistDialog
 
@@ -188,7 +188,7 @@ private fun NewMiniPlayer(
     val playerConnection = LocalPlayerConnection.current ?: return
     val menuState = LocalMenuState.current
 
-    // Theme settings - forced into RAAG Glassmorphism
+    // Theme settings - forced into RAGG Glassmorphism
     val context = LocalContext.current
     val primaryColor = MaterialTheme.colorScheme.primary
     val outlineColor = MaterialTheme.colorScheme.outline
@@ -293,7 +293,7 @@ private fun NewMiniPlayer(
         }
     }
 
-    // RAAG MiniPlayer Glass Container
+    // RAGG MiniPlayer Glass Container
     com.ragg.music.ui.component.GlassSurface(
         modifier = miniPlayerModifier,
         cornerRadius = 32.dp
