@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ═══════════════════════════════════════════════════════════
+         RAAG CINEMATIC AMOLED PALETTE — DO NOT MODIFY
+         ═══════════════════════════════════════════════════════════ -->
+
+    <!-- Core RAAG Backgrounds -->
+    <color name="background_dark">#070B14</color>
+    <color name="surface_dark">#0B0F1A</color>
+
+    <!-- Primary Purple System -->
+    <color name="primary_purple">#8B5CF6</color>
+    <color name="deep_purple">#6D28D9</color>
+    <color name="accent_purple_glow">#A78BFA</color>
+    <color name="soft_lavender">#C4B5FD</color>
+    <color name="blue_violet">#6366F1</color>
+
+    <!-- Typography -->
+    <color name="text_white">#F8FAFC</color>
+    <color name="secondary_text">#94A3B8</color>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         UI SEMANTIC ALIASES
+         ═══════════════════════════════════════════════════════════ -->
+    <color name="primary">#8B5CF6</color>
+    <color name="primaryContainer">#6366F1</color>
+    <color name="secondary">#C4B5FD</color>
+    <color name="tertiary">#A78BFA</color>
+    <color name="surface">#0B0F1A</color>
+    <color name="background">#070B14</color>
+    <color name="onSurface">#F8FAFC</color>
+    <color name="onBackground">#F8FAFC</color>
+
+    <!-- Glass Effects (Reference only, implemented in Compose) -->
+    <color name="glass_surface">#14FFFFFF</color>
+    <color name="glass_border">#1FFFFFFF</color>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         LEGACY COMPATIBILITY MAPPINGS
+         ═══════════════════════════════════════════════════════════ -->
+    <color name="flagship_lavender">#8B5CF6</color>
+    <color name="deep_purple_accent">#6D28D9</color>
+    <color name="bright_purple">#A78BFA</color>
+    <color name="soft_pink">#8B5CF6</color>
+    <color name="dark_glass">#070B14</color>
+    <color name="ic_launcher_static_background">#070B14</color>
+
+</resources>

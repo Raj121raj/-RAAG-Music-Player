@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    RAAG Launcher Icon — Foreground v31 (Android 12+)
+    Matches standard foreground: 5-bar equalizer waveform
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left outer bar -->
+    <path
+        android:pathData="M30,60 L30,48 Q30,46 32,46 L34,46 Q36,46 36,48 L36,60 Q36,62 34,62 L32,62 Q30,62 30,60z"
+        android:fillAlpha="0.9">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="33" android:startY="46" android:endX="33" android:endY="62" android:type="linear">
+                <item android:offset="0" android:color="#FFA78BFA" />
+                <item android:offset="1" android:color="#B08B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left inner bar -->
+    <path
+        android:pathData="M40,66 L40,42 Q40,40 42,40 L44,40 Q46,40 46,42 L46,66 Q46,68 44,68 L42,68 Q40,68 40,66z"
+        android:fillAlpha="1.0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="43" android:startY="40" android:endX="43" android:endY="68" android:type="linear">
+                <item android:offset="0" android:color="#FFF8FAFC" />
+                <item android:offset="0.4" android:color="#FFA78BFA" />
+                <item android:offset="1" android:color="#FF8B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center bar — tallest -->
+    <path
+        android:pathData="M50,70 L50,38 Q50,36 52,36 L56,36 Q58,36 58,38 L58,70 Q58,72 56,72 L52,72 Q50,72 50,70z"
+        android:fillAlpha="1.0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="54" android:startY="36" android:endX="54" android:endY="72" android:type="linear">
+                <item android:offset="0" android:color="#FFF8FAFC" />
+                <item android:offset="0.3" android:color="#FFA78BFA" />
+                <item android:offset="0.7" android:color="#FF8B5CF6" />
+                <item android:offset="1" android:color="#FF6D28D9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right inner bar -->
+    <path
+        android:pathData="M62,66 L62,42 Q62,40 64,40 L66,40 Q68,40 68,42 L68,66 Q68,68 66,68 L64,68 Q62,68 62,66z"
+        android:fillAlpha="1.0">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="65" android:startY="40" android:endX="65" android:endY="68" android:type="linear">
+                <item android:offset="0" android:color="#FFF8FAFC" />
+                <item android:offset="0.4" android:color="#FFA78BFA" />
+                <item android:offset="1" android:color="#FF8B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right outer bar -->
+    <path
+        android:pathData="M72,60 L72,48 Q72,46 74,46 L76,46 Q78,46 78,48 L78,60 Q78,62 76,62 L74,62 Q72,62 72,60z"
+        android:fillAlpha="0.9">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="75" android:startY="46" android:endX="75" android:endY="62" android:type="linear">
+                <item android:offset="0" android:color="#FFA78BFA" />
+                <item android:offset="1" android:color="#B08B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>
