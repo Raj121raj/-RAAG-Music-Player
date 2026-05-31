@@ -62,7 +62,7 @@ class DiscordRPC(
                 button2Text.ifEmpty { "Visit RAGG" },
                 song
             )
-            buttonsList.add(resolvedText to "https://github.com.raggGroup/RAGG")
+            buttonsList.add(resolvedText to "https://github.com/Raj121raj/-RAAG-Music-Player")
         }
 
         val type = when (activityType) {

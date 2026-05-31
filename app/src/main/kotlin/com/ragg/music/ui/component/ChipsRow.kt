@@ -77,11 +77,21 @@ fun <E> ChipsRow(
                 label = { Text(label) },
                 selected = currentValue == value,
                 colors = FilterChipDefaults.filterChipColors(
-                    containerColor = containerColor,
+                    containerColor = Color(0xFF121826).copy(alpha = 0.4f), // Glass surface
+                    selectedContainerColor = Color(0xFF8B5CF6).copy(alpha = 0.2f), // Glowing purple background
+                    selectedLabelColor = Color(0xFFA855F7), // Neon purple text
+                    labelColor = Color.White.copy(alpha = 0.8f)
                 ),
                 onClick = { onValueUpdate(value) },
                 shape = RoundedCornerShape(16.dp),
-                border = null
+                border = FilterChipDefaults.filterChipBorder(
+                    enabled = true,
+                    selected = currentValue == value,
+                    borderColor = Color.White.copy(alpha = 0.1f),
+                    selectedBorderColor = Color(0xFF8B5CF6).copy(alpha = 0.5f),
+                    borderWidth = 1.dp,
+                    selectedBorderWidth = 1.dp
+                )
             )
 
             Spacer(Modifier.width(8.dp))

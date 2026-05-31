@@ -157,14 +157,14 @@ inline fun ListItem(
             .padding(horizontal = 8.dp, vertical = 4.dp) // Add vertical spacing between cards
             .clip(RoundedCornerShape(16.dp))
             .background(
-                color = if (isActive) MaterialTheme.colorScheme.primary.copy(alpha = 0.3f)
-                else if (isSelected == true) MaterialTheme.colorScheme.inversePrimary.copy(alpha = 0.2f)
-                else Color.White.copy(alpha = 0.35f) // RAGG frosted glass background for list items
+                color = if (isActive) Color(0xFF8B5CF6).copy(alpha = 0.2f)
+                else if (isSelected == true) Color(0xFF8B5CF6).copy(alpha = 0.15f)
+                else Color(0xFF121826).copy(alpha = 0.4f) // RAGG dark glass surface
             )
             .border(
                 width = 1.dp,
-                color = if (isActive) MaterialTheme.colorScheme.primary.copy(alpha = 0.5f)
-                else Color.White.copy(alpha = 0.1f),
+                color = if (isActive) Color(0xFF8B5CF6).copy(alpha = 0.5f)
+                else Color(0xFF8B5CF6).copy(alpha = 0.1f),
                 shape = RoundedCornerShape(16.dp)
             )
             .padding(end = 4.dp) // Slight padding inside the glass card
@@ -296,15 +296,19 @@ fun GridItem(
 ) {
     val gridHeight = currentGridThumbnailHeight()
     Column(
-        modifier = if (fillMaxWidth) {
+        modifier = (if (fillMaxWidth) {
             modifier
-                .padding(12.dp)
+                .padding(8.dp)
                 .fillMaxWidth()
         } else {
             modifier
-                .padding(12.dp)
+                .padding(8.dp)
                 .width(gridHeight * thumbnailRatio)
-        }
+        })
+        .clip(RoundedCornerShape(22.dp))
+        .background(Color(0xFF121826).copy(alpha = 0.4f)) // RAGG Glass Surface
+        .border(1.dp, Color(0xFF8B5CF6).copy(alpha = 0.2f), RoundedCornerShape(22.dp))
+        .padding(12.dp)
     ) {
         BoxWithConstraints(
             contentAlignment = Alignment.Center,
@@ -314,6 +318,7 @@ fun GridItem(
                 Modifier.height(gridHeight)
             }
                 .aspectRatio(thumbnailRatio)
+                .clip(RoundedCornerShape(16.dp))
         ) {
             thumbnailContent()
         }

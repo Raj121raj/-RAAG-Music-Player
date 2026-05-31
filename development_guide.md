@@ -13,8 +13,8 @@ This file outlines the process of setting up a local dev environment for RAGG.
 This has been tested on Linux, but should work on other platforms with some adjustments.
 
 ```bash
-git clone https://github.com/RAGGGroup/RAGG
-cd RAGG
+git clone https://github.com/Raj121raj/-RAAG-Music-Player
+cd -RAAG-Music-Player
 git submodule update --init --recursive
 cd app
 bash generate_proto.sh

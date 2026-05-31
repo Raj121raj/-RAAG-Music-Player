@@ -1,340 +1,241 @@
 <div align="center">
 
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/fastlane/metadata/android/en-US/images/icon.png" alt="RAGG app icon" width="200" />
+<img src="./fastlane/metadata/android/en-US/images/icon.png" alt="RAGG App Icon" width="160" style="border-radius: 20%; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
 
-# RAGG
+# 🎵 RAGG
 
-### YouTube Music client for Android
+### A Premium, High-Fidelity YouTube Music Client for Android
 
-<br/>
+*Experience music with beautiful aesthetics, high performance, and absolute privacy.*
 
-<a href="https://trendshift.io/repositories/20652" target="_blank"><img src="https://trendshift.io/api/badge/repositories/20652" alt="RAGGGroup%2FRAGG | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+---
 
-<br/>
-
-[![Latest release](https://img.shields.io/github/v/release/RAGGGroup/RAGG?style=for-the-badge&labelColor=0d1117)](https://github.com/RAGGGroup/RAGG/releases)
-[![License](https://img.shields.io/github/license/RAGGGroup/RAGG?style=for-the-badge&labelColor=0d1117)](https://github.com/RAGGGroup/RAGG/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/RAGGGroup/RAGG/total?style=for-the-badge&labelColor=0d1117)](https://github.com/RAGGGroup/RAGG/releases)
-
-<br/>
-
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117)](https://dsc.gg/RAGG)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117)](https://t.me/RAGGapp)
+[![Latest Release](https://img.shields.io/github/v/release/Raj121raj/-RAAG-Music-Player?style=for-the-badge&color=8B5CF6&labelColor=1e1e2e)](https://github.com/Raj121raj/-RAAG-Music-Player/releases)
+[![License](https://img.shields.io/github/license/Raj121raj/-RAAG-Music-Player?style=for-the-badge&color=3b82f6&labelColor=1e1e2e)](https://github.com/Raj121raj/-RAAG-Music-Player/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/Raj121raj/-RAAG-Music-Player/total?style=for-the-badge&color=10b981&labelColor=1e1e2e)](https://github.com/Raj121raj/-RAAG-Music-Player/releases)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white&color=5865F2&labelColor=1e1e2e)](https://dsc.gg/RAGG)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&color=2CA5E0&labelColor=1e1e2e)](https://t.me/RAGGapp)
 
 <br/>
 
-[**Download**](#download-now) · [**Features**](#features) · [**Translate**](#translations) · [**FAQ**](#faq) · [**Support**](#support-the-project)
+[**Download APK**](#-download-now) • [**Key Features**](#-features) • [**Screenshots**](#-screenshots) • [**FAQ**](#-faq) • [**Translations**](#-translations) • [**Support**](#-support-the-project)
 
 </div>
 
 > [!WARNING]
-> Regional Restriction - If YouTube Music is unavailable in your region, this app will not work without a **VPN or proxy** connecting to a supported region.
+> **Regional Restriction:** If YouTube Music is unavailable in your country/region, this application requires a **VPN or proxy** connecting to a supported region to stream audio.
 
 ---
 
+## 📱 Screenshots
+
 <div align="center">
-
-<h1><a id="screenshots"></a>Screenshots</h1>
-
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_1.png" alt="Home screen" width="30%" />
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_2.png" alt="Artist screen" width="30%" />
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_3.png" alt="Recognize music screen" width="30%" />
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_4.png" alt="Listen together screen" width="30%" />
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png" alt="Player screen" width="30%" />
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/fastlane/metadata/android/en-US/images/screenshots/screenshot_6.png" alt="Player lyrics screen" width="30%" />
-
+  <table border="0">
+    <tr>
+      <td><img src="./fastlane/metadata/android/en-US/images/screenshots/screenshot_1.png" alt="Home Screen" width="100%" style="border-radius: 12px;" /></td>
+      <td><img src="./fastlane/metadata/android/en-US/images/screenshots/screenshot_2.png" alt="Artist Screen" width="100%" style="border-radius: 12px;" /></td>
+      <td><img src="./fastlane/metadata/android/en-US/images/screenshots/screenshot_3.png" alt="Recognize Music" width="100%" style="border-radius: 12px;" /></td>
+    </tr>
+    <tr>
+      <td><img src="./fastlane/metadata/android/en-US/images/screenshots/screenshot_4.png" alt="Listen Together" width="100%" style="border-radius: 12px;" /></td>
+      <td><img src="./fastlane/metadata/android/en-US/images/screenshots/screenshot_5.png" alt="Player Screen" width="100%" style="border-radius: 12px;" /></td>
+      <td><img src="./fastlane/metadata/android/en-US/images/screenshots/screenshot_6.png" alt="Player Lyrics" width="100%" style="border-radius: 12px;" /></td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-<div align="center">
+## ✨ Features
 
-<h1><a id="features"></a>Features</h1>
-
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
-
-### Playback
-- Stream any song or video from YouTube Music
-- Background playback
-- Download & cache for offline use
-- Skip silence
-- Sleep timer
-
-</td>
+      <h3>🎧 Playback</h3>
+      <ul>
+        <li>Stream any song or video from YouTube Music</li>
+        <li>Background playback with full notification controls</li>
+        <li>Download &amp; cache songs for offline use</li>
+        <li>Automatic silence skipping</li>
+        <li>Sleep timer with custom schedules</li>
+      </ul>
+    </td>
     <td width="50%" valign="top">
-
-### Audio
-- Audio normalization
-- Tempo & pitch control
-- Equalizer
-
-</td>
+      <h3>🔊 Audio Quality</h3>
+      <ul>
+        <li>Audio normalization &amp; leveling</li>
+        <li>Tempo &amp; pitch controls (tape speed effects)</li>
+        <li>Integrated high-fidelity parametric Equalizer</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-
-### Lyrics & Discovery
-- Live synced lyrics
-- AI-powered lyrics translation
-- Personalized quick picks
-- Search songs, albums, artists, videos, and playlists
-
-</td>
+      <h3>🎤 Lyrics &amp; Discovery</h3>
+      <ul>
+        <li>Live time-synced lyrics with animations</li>
+        <li>AI-powered live translation for foreign lyrics</li>
+        <li>Personalized Quick Picks based on your history</li>
+        <li>Comprehensive search (songs, playlists, videos, albums, artists)</li>
+      </ul>
+    </td>
     <td width="50%" valign="top">
-
-### Library & Account
-- Full library management
-- Local playlists
-- Import playlists
-- Reorder songs in playlist or queue
-- YouTube Music account login
-- Sync songs, artists, albums, and playlists
-
-</td>
+      <h3>📁 Library &amp; Account</h3>
+      <ul>
+        <li>Full library &amp; local playlist management</li>
+        <li>Import/Export playlists (M3U, CSV)</li>
+        <li>Drag-and-drop queue/playlist reordering</li>
+        <li>YouTube Music account login &amp; data synchronization</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-
-### Social
-- Listen together with friends in real-time
-
-</td>
+      <h3>👥 Social Features</h3>
+      <ul>
+        <li><strong>Listen Together:</strong> Sync playback with friends in real-time</li>
+      </ul>
+    </td>
     <td width="50%" valign="top">
-
-### Interface
-- Home screen widget
-- Light / Dark / Black / Dynamic theme modes
-- Dynamic / 19 color palettes
-- Built with Material 3
-
-</td>
+      <h3>🎨 Customization</h3>
+      <ul>
+        <li>Modern Material You / Material 3 interface</li>
+        <li>Vibrant palettes (19+ color schemes, light/dark/pure-black modes)</li>
+        <li>Frosted glassmorphism design elements</li>
+        <li>Beautiful Home Screen widget with media controls</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
-</div>
-
 ---
 
-<div align="center">
+## 📥 Download Now
 
-<h1><a id="download-now"></a>Download Now</h1>
-
-<h2>Stable Release</h2>
+### Stable Releases
 
 <table>
   <tr>
-    <th align="center">Obtainium</th>
-    <th align="center">IzzyOnDroid</th>
+    <th align="center" width="25%">Obtainium</th>
+    <th align="center" width="25%">IzzyOnDroid</th>
+    <th align="center" width="25%">OpenAPK</th>
+    <th align="center" width="25%">GitHub Direct</th>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/RAGGGroup/RAGG/">
-        <img src="https://github.com/ImranR98/Obtainium/blob/main/assets/graphics/badge_obtainium.png" alt="Download from Obtainium" height="50">
+      <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/Raj121raj/-RAAG-Music-Player">
+        <img src="https://github.com/ImranR98/Obtainium/blob/main/assets/graphics/badge_obtainium.png" alt="Obtainium Badge" height="50">
       </a>
     </td>
     <td align="center">
       <a href="https://apt.izzysoft.de/fdroid/index/apk/com.RAGG.music">
-        <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Download from IzzyOnDroid" height="75">
+        <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="IzzyOnDroid Badge" height="65">
       </a>
     </td>
-  </tr>
-  <tr>
-    <th align="center">OpenAPK</th>
-    <th align="center">GitHub</th>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://www.openapk.net/RAGG/com.RAGG.music/">
-        <img src="https://www.openapk.net/images/openapk-badge.png" alt="Download from OpenAPK" height="75">
+        <img src="https://www.openapk.net/images/openapk-badge.png" alt="OpenAPK Badge" height="65">
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/RAGGGroup/RAGG/releases/latest/download/RAGG.apk">
-        <img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" alt="Download from GitHub" height="75">
+      <a href="https://github.com/Raj121raj/-RAAG-Music-Player/releases/latest/download/RAGG.apk">
+        <img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" alt="GitHub Badge" height="65">
       </a>
     </td>
   </tr>
 </table>
 
-<h2>Nightly Build</h2>
+### Nightly Builds
 
 <table>
   <thead>
     <tr>
-      <th align="center">GitHub</th>
+      <th align="center">Source</th>
+      <th align="center">Action Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td align="center"><strong>GitHub Actions Nightly</strong></td>
       <td align="center">
-        <a href="https://nightly.link/RAGGGroup/RAGG/workflows/build/main/app-with-Google-Cast.zip">
-          <img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" alt="Download from GitHub" height="75">
+        <a href="https://nightly.link/Raj121raj/-RAAG-Music-Player/workflows/build/main/app-with-Google-Cast.zip">
+          <img src="https://github.com/machiav3lli/oandbackupx/blob/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" alt="GitHub Actions Badge" height="65">
         </a>
       </td>
     </tr>
   </tbody>
 </table>
 
-</div>
+---
+
+## 💬 FAQ
+
+### Have questions?
+Visit our official [**FAQ page**](https://RAGG.cc/#faq) for details on app setup, credentials, and troubleshooting.
 
 ---
 
-<div align="center">
+## 🌐 Translations
 
-<h1><a id="faq"></a>FAQ</h1>
-
-<h3>Got questions? Check out our <a href="https://RAGG.cc/#faq">FAQ page</a> for answers to the most common ones!</h3>
-
-</div>
-
----
-
-<div align="center">
-
-<h1><a id="translations"></a>Translations</h1>
-
-[![Translation status](https://img.shields.io/weblate/progress/RAGG?style=for-the-badge&labelColor=0d1117)](https://hosted.weblate.org/engage/RAGG/)
-
-<h3>We use Weblate to translate RAGG. <a href="https://hosted.weblate.org/projects/RAGG/">Help us bring RAGG to more people!</a></h3>
+We use **Weblate** to localize RAGG. Every translation helps make RAGG accessible to more users worldwide.
 
 <a href="https://hosted.weblate.org/projects/RAGG/">
-  <img src="https://hosted.weblate.org/widget/RAGG/horizontal-auto.svg" alt="Translation status" />
+  <img src="https://hosted.weblate.org/widget/RAGG/horizontal-auto.svg" alt="Weblate Status" />
 </a>
-
-<h3>Thank you very much. Every translation makes RAGG a little more accessible to someone, somewhere in the world!</h3>
-
-</div>
 
 ---
 
-<div align="center">
+## 💖 Support the Project
 
-<h1><a id="support-the-project"></a>Support the Project</h1>
-
-<h3>RAGG is free and open-source. If it brings you joy, consider supporting its development!</h3>
-
-<div align="center">
+RAGG is completely free and open-source. If you enjoy the app, consider supporting the developers!
 
 ### Monero (XMR)
-
-<img src="https://github.com/RAGGGroup/RAGG/blob/main/assets/XMR.png" alt="Monero QR code" width="150" />
+<img src="./assets/XMR.png" alt="Monero QR" width="150" style="border-radius: 8px;" />
 
 ```text
 44XjSELSWcgJTZiCKzjpCQWyXhokrH9RqH3rpp35FkSKi57T25hniHWHQNhLeXyFn3DDYqufmfRB1iEtENerZpJc7xJCcqt
 ```
 
 ### Buy Me a Coffee
-
 <a href="https://www.buymeacoffee.com/mostafaalagamy">
-  <img src="https://github.com/RAGGGroup/RAGG/blob/main/assets/buymeacoffee.png?raw=true" alt="Buy Me a Coffee" width="150" />
+  <img src="./assets/buymeacoffee.png" alt="Buy Me A Coffee" width="150" />
 </a>
 
-</div>
+---
 
-</div>
+## 🤝 Special Thanks
+
+RAGG stands on the shoulders of incredible open-source projects:
+
+### Core Inspirations
+*   **InnerTune** (by [Zion Huang](https://github.com/z-huang) &amp; [Malopieds](https://github.com/Malopieds))
+*   **OuterTune** (by [Davide Garberi](https://github.com/DD3Boh) &amp; [Michael Zh](https://github.com/mikooomich))
+
+### Libraries & Services
+*   **Kizzy** (by [dead8309](https://github.com/dead8309/Kizzy)): Discord Rich Presence integration
+*   **Better Lyrics**: Word-by-word synced lyrics and YouTube Music parser
+*   **SimpMusic Lyrics**: Synced lyrics API integration
+*   **metroserver**: Real-time Listen Together backend
+*   **MusicRecognizer**: Shazam integration
 
 ---
 
-<div align="center">
+## 👥 Contributors
 
-<h1>Special Thanks</h1>
+Thank you to everyone who has contributed to RAGG!
 
-<h3>RAGG stands on the shoulders of incredible open-source work!</h3>
-
-<h3>Main Inspirations</h3>
- 
-<table>
-  <thead>
-    <tr>
-      <th align="center">Project</th>
-      <th align="center">Authors</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>InnerTune</strong></td>
-      <td><a href="https://github.com/z-huang">Zion Huang</a> · <a href="https://github.com/Malopieds">Malopieds</a></td>
-    </tr>
-    <tr>
-      <td><strong>OuterTune</strong></td>
-      <td><a href="https://github.com/DD3Boh">Davide Garberi</a> · <a href="https://github.com/mikooomich">Michael Zh</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h3>Libraries & Integrations</h3>
- 
-<table>
-  <thead>
-    <tr>
-      <th align="center">Project</th>
-      <th align="center">Contribution</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/dead8309/Kizzy"><strong>Kizzy</strong></a></td>
-      <td>Discord Rich Presence implementation & inspiration</td>
-    </tr>
-    <tr>
-      <td><a href="https://better-lyrics.boidu.dev"><strong>Better Lyrics</strong></a></td>
-      <td>Time-synced lyrics with word-by-word highlighting & YouTube Music integration</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/maxrave-dev/SimpMusic"><strong>SimpMusic Lyrics</strong></a></td>
-      <td>Lyrics data via the SimpMusic Lyrics API</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/RAGGGroup/metroserver"><strong>metroserver</strong></a></td>
-      <td>Listen-together real-time backend</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/aleksey-saenko/MusicRecognizer"><strong>MusicRecognizer</strong></a></td>
-      <td>Music recognition feature & Shazam API integration</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3>We also thank the entire open-source community! Every library, tool, and API that powers this project!</h3>
-
-</div>
-
----
-
-<div align="center">
-
-<h1>Contributors</h1>
-
-<h3>This project wouldn't exist without these amazing people!</h3>
-
-<a href="https://github.com/RAGGGroup/RAGG/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RAGGGroup/RAGG" alt="Contributors"/>
+<a href="https://github.com/Raj121raj/-RAAG-Music-Player/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Raj121raj/-RAAG-Music-Player" alt="Contributors list" />
 </a>
 
-</div>
+---
+
+## ⚖️ Disclaimer
+
+This project is **not affiliated with, authorized, or endorsed by** YouTube, Google LLC, or any of their subsidiaries. All trademarks and registered trademarks are the property of their respective owners.
 
 ---
 
 <div align="center">
-
-<h1>Disclaimer</h1>
-
-This project is **not affiliated with, funded, authorized, endorsed by, or associated** with YouTube, Google LLC, RAGG Group LLC, or any of their affiliates and subsidiaries.
-
-All trademarks, service marks, and intellectual property rights referenced in this project belong to their respective owners.
-
-</div>
-
----
-
-<div align="center">
-
-<br/>
-
-**Made with ❤️ by [Mo Agamy](https://github.com/mostafaalagamy)**
-
-**This project stands with Palestine 🇵🇸**
-
+  <sub>Made with ❤️ by <a href="https://github.com/mostafaalagamy">Mo Agamy</a>. Maintained &amp; improved by <a href="https://github.com/Raj121raj">Raj121raj</a>.</sub>
 </div>
